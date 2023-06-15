@@ -16,6 +16,17 @@
                         <li><img src="assets/img/icons/icon-persons.svg" alt=""> 2 Adult + 0 Child</li>
                     </ul>
                 </div>
+                <div class="booking-cancel">
+                    <h4>Cancellation policy</h4>
+                    <p>Cancel before check-in on Dec 24 for a partial refund. After that, this reservation is non-refundable. Learn more</p>
+                    <label for="">
+                        <input type="checkbox"> I agree to the property rules for guests, Rate Locker’s booking and refund policy, and you will be responsible for any property damage.
+                    </label>
+                    <label for="">
+                        <input type="checkbox"> I also agree to the Terms of Service, Payments Terms of Service, and I acknowledge the Privacy Policy.
+                    </label>
+                    <a href="" class="btn-bg">Confirm Booking & Pay</a>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="booking-summary">

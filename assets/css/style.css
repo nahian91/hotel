@@ -1378,3 +1378,57 @@ opacity: 0.8;
   padding-top: 24px;
   font-weight: 700;
 }
+
+.payment-title {
+  font-size: 51px;
+  line-height: 61.2px;
+  color: #475569;
+  margin-bottom: 60px;
+}
+.booking-information h4, .booking-cancel h4 {
+  color: #475569;
+  font-size: 36px;
+  line-height: 46.8px;
+  margin-bottom: 24px;
+}
+.booking-information ul {
+  border: 1px solid #94A3B8;
+  border-radius: 24px;
+  padding: 16px 27px;
+  list-style: none;
+}
+.booking-information ul li {
+  font-size: 18px;
+  line-height: 27px;
+  border-bottom: 1px dashed #94A3B8;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  color: #64748B;
+  display: flex;
+  align-items: center;
+}
+.booking-information ul li:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.booking-information ul li img {
+  margin-right: 10px;
+}
+
+.booking-cancel p {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Comfortaa';
+  margin-top: 32px;
+  border-bottom: 1px solid #94A3B8;
+  padding-bottom: 64px;
+  margin-bottom: 64px;
+}
+.booking-cancel label {
+  font-size: 13px;
+  line-height: 20.8px;
+  font-family: 'Comfortaa';
+  display: flex;
+  align-items: center;
+}
