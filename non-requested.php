@@ -10,7 +10,7 @@
                         <div class="filter-button position-relative"><img src="assets/img/icons/icon-discover.png" alt=""> Facilities  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
                             <div class="filter-dropdown">
                                 <div class="filter-dropdown-box">
-                                    <h4>Facilities <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                    <h4 class="d-flex justify-content-between">Facilities <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
                                     <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                         <div class="single-filter-dropdown">
                                             <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
@@ -59,7 +59,7 @@
                         <div class="filter-button position-relative"><img src="assets/img/icons/icon-discover.png" alt=""> Meal  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
                         <div class="filter-dropdown">
                                 <div class="filter-dropdown-box">
-                                    <h4>Meals <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                    <h4 class="d-flex justify-content-between">Meals <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
                                     <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                         <div class="single-filter-dropdown">
                                             <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
@@ -92,7 +92,7 @@
                         <div class="filter-button position-relative"><img src="assets/img/icons/icon-discover.png" alt=""> Hotel Classes  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
                         <div class="filter-dropdown">
                                 <div class="filter-dropdown-box">
-                                    <h4>Hotel Class <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                    <h4 class="d-flex justify-content-between">Hotel Class <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
                                     <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                         <div class="single-filter-dropdown">
                                             <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
@@ -117,7 +117,7 @@
                         <div class="filter-button position-relative"><img src="assets/img/icons/icon-discover.png" alt=""> Ratings <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
                         <div class="filter-dropdown">
                                 <div class="filter-dropdown-box">
-                                    <h4>Facilities <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                    <h4 class="d-flex justify-content-between">Facilities <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
                                     <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                         <div class="single-filter-dropdown">
                                             <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
@@ -166,7 +166,7 @@
                         <div class="filter-button position-relative"><img src="assets/img/icons/icon-discover.png" alt=""> Property Type  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
                         <div class="filter-dropdown">
                                 <div class="filter-dropdown-box">
-                                    <h4>Facilities <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                    <h4 class="d-flex justify-content-between">Facilities <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
                                     <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                         <div class="single-filter-dropdown">
                                             <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
@@ -215,7 +215,7 @@
                         <div class="filter-button position-relative"><img src="assets/img/icons/icon-discover.png" alt=""> Sort By  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
                         <div class="filter-dropdown dropdown-radio">
                                 <div class="filter-dropdown-box">
-                                    <h4>Short By <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                    <h4 class="d-flex justify-content-between">Short By <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
                                     <div class="filter-dropdown-items">
                                         <div class="single-filter-dropdown">
                                             <label for="">
@@ -289,7 +289,7 @@
                                 <p><img src="assets/img/icons/icon-pin.png" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
                             </div>
                             <div class="room-search-top-rating d-flex justify-content-between align-items-center">
-                                <h5>Rating span <span>1234 reviews</span></h5>
+                                <h5>Rating<span>1234 reviews</span></h5>
                                 <p>4.8</p>
                             </div>
                         </div>
@@ -350,7 +350,7 @@
                                 <p><img src="assets/img/icons/icon-pin.png" alt=""> Ciutat de Barcelona</p>
                             </div>
                             <div class="room-search-top-rating d-flex justify-content-between align-items-center">
-                                <h5>Rating span <span>1234 reviews</span></h5>
+                                <h5>Rating<span>1234 reviews</span></h5>
                                 <p>4.8</p>
                             </div>
                         </div>
@@ -411,7 +411,7 @@
                                 <p><img src="assets/img/icons/icon-pin.png" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
                             </div>
                             <div class="room-search-top-rating d-flex justify-content-between align-items-center">
-                                <h5>Rating span <span>1234 reviews</span></h5>
+                                <h5>Rating<span>1234 reviews</span></h5>
                                 <p>4.8</p>
                             </div>
                         </div>
@@ -472,7 +472,7 @@
                                 <p><img src="assets/img/icons/icon-pin.png" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
                             </div>
                             <div class="room-search-top-rating d-flex justify-content-between align-items-center">
-                                <h5>Rating span <span>1234 reviews</span></h5>
+                                <h5>Rating<span>1234 reviews</span></h5>
                                 <p>4.8</p>
                             </div>
                         </div>
@@ -533,7 +533,7 @@
                                 <p><img src="assets/img/icons/icon-pin.png" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
                             </div>
                             <div class="room-search-top-rating d-flex justify-content-between align-items-center">
-                                <h5>Rating span <span>1234 reviews</span></h5>
+                                <h5>Rating<span>1234 reviews</span></h5>
                                 <p>4.8</p>
                             </div>
                         </div>

@@ -1,6 +1,21 @@
 <?php include 'inc/header.php'; ?>
 
 
+<section class="rooms-section-title">
+    <div class="container">
+        <div class="row align-items-end">
+            <div class="col-md-6">
+                <h4>Seacrest Oceanfront Resort</h4>
+                <p>Hotel-Motel Zone, Cox's Bazar</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <a href=""><img src="assets/img/icons/icon-share.svg" alt=""> Share</a>
+                <a href=""><img src="assets/img/icons/icon-heart.svg" alt=""> Save</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="rooms-gallery">
     <div class="container">
         <div class="row rooms-gallery-border">
@@ -57,16 +72,150 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xxl-5"></div>
+            <div class="col-xxl-5">
+                <div class="room-boking">
+                    <a href="" class="btn-bg d-block text-center">Check Hotel Response <img src="assets/img/icons/icon-arrow-down.svg" alt=""></a>
+                    <div class="room-booking-form">
+                        <p>Offered Price</p>
+                        <h4>BDT 14,906 <span>/night</span></h4>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="room-response">
+                <div class="room-response-top">
+                    <h4>Hotel Response To Your Offer</h4>
+                    <p><img src="assets/img/icons/icon-info.png" alt=""> <span>2 response out of 3 offer</span></p>
+                </div>
+                <div class="room-search-item">
+                    <div class="room-column-slider">
+                        <span class="room-column-icon">
+                            <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
+                        </span>
+                        <div id="room-indicator-1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="1"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <img src="assets/img/rooms/room-response-1.svg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                <img src="assets/img/rooms/room-response-2.svg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#room-indicator-1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true">
+                                    <img src="assets/img/icons/arrow_back.png" alt="">
+                                </span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#room-indicator-1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true">
+                                    <img src="assets/img/icons/arrow_forward.png" alt="">
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="room-search-box d-flex justify-content-between align-items-end">
+                        <div class="room-search-top">
+                            <div class="room-search-top-info">
+                                <span><img src="assets/img/icons/icon-home.png" alt=""> Hotel</span>
+                                <h4>Seacrest Oceanfront Resort</h4>
+                                <p>1 Room | 1 Twin Bed | 2 Guests</p>
+                                <h5>Breakfast buffet included </h5>
+                            </div>
+                            <div class="room-search-features">
+                                <span><img src="assets/img/icons/icon-welcome-drink.png" alt=""> Welcome Drink</span>
+                                <span><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</span>
+                                <span><img src="assets/img/icons/icon-tea.png" alt=""> Tea/Coffee</span>
+                                <span><img src="assets/img/icons/icon-air-condiitoner.png" alt=""> Air Conditioner</span>
+                            </div>
+                        </div>
+                        <div class="room-search-bottom d-flex justify-content-between align-items-end">
+                            
+                            <div class="room-search-price">
+                                <h5>Accepted <span>5% off</span></h5>
+                                <p><del>BDT 15,906</del> BDT 14,906</p>
+                                <a href="" class="btn-bg">Book The Room</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-search-item">
+                    <div class="room-column-slider">
+                        <span class="room-column-badge">Most Popular</span>
+                        <span class="room-column-icon">
+                            <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
+                        </span>
+                        <div id="room-indicator-1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="1"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <img src="assets/img/rooms/room-response-2.svg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                <img src="assets/img/rooms/room-response-1.svg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#room-indicator-1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true">
+                                    <img src="assets/img/icons/arrow_back.png" alt="">
+                                </span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#room-indicator-1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true">
+                                    <img src="assets/img/icons/arrow_forward.png" alt="">
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="room-search-box">
+                        <div class="room-search-top d-flex justify-content-between align-items-start">
+                            <div class="room-search-top-info">
+                                <span><img src="assets/img/icons/icon-home.png" alt=""> Hotel</span>
+                                <h4>Seacrest Oceanfront Resort</h4>
+                                <p><img src="assets/img/icons/icon-pin.png" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
+                            </div>
+                            <div class="room-search-top-rating d-flex justify-content-between align-items-center">
+                                <h5>Rating span <span>1234 reviews</span></h5>
+                                <p>4.8</p>
+                            </div>
+                        </div>
+                        <div class="room-search-bottom d-flex justify-content-between align-items-end">
+                            <div class="room-search-features">
+                                <span><img src="assets/img/icons/icon-welcome-drink.png" alt=""> Welcome Drink</span>
+                                <span><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</span>
+                                <span><img src="assets/img/icons/icon-tea.png" alt=""> Tea/Coffee</span>
+                                <span><img src="assets/img/icons/icon-air-condiitoner.png" alt=""> Air Conditioner</span>
+                            </div>
+                            <div class="room-search-price">
+                                <span>Price Starting From</span>
+                                <p>BDT 15,906</p>
+                                <a href="" class="btn-bg">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <section class="single-room-column-area">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h4 class="section-title">Available Rooms You May Like</h4>
+                <h4 class="section-title">Other Available Rooms You May Like</h4>
             </div>
         </div>
         <div class="row">

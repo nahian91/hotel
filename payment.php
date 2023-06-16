@@ -4,26 +4,80 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h4 class="payment-title">Confirm & Pay</h4>
+                <h4 class="page-title">Confirm & Pay</h4>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
                 <div class="booking-information">
-                    <h4>Your Booking Information</h4>
+                    <h4 class="page-subtitle">Your Booking Information</h4>
                     <ul>
                         <li><img src="assets/img/icons/icon-range.svg" alt=""> 23 Nov To 26 Nov (2 nights)</li>
                         <li><img src="assets/img/icons/icon-persons.svg" alt=""> 2 Adult + 0 Child</li>
                     </ul>
                 </div>
+                <div class="payment-form-box">
+                    <h4 class="page-subtitle">Pay With</h4>
+                    <ul class="payment-option">
+                        <li>
+                            <label>
+                                <input type="radio" name="test" value="small" checked>
+                                <img src="assets/img/icons/payment-card.svg" alt="Option 1">
+                                <span>Credit Card</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="test" value="big">
+                                <img src="assets/img/icons/payment-bkash.svg" alt="Option 1">
+                                <span>bKash</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="test" value="big">
+                                <img src="assets/img/icons/payment-nagad.svg" alt="Option 1">
+                                <span>Nagad</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="test" value="big">
+                                <img src="assets/img/icons/payment-dbbl.svg" alt="Option 1">
+                                <span>DBBL Nesux</span>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="payment-form">
+                        <input type="text" placeholder="Card Holder Name">
+                        <input type="text" placeholder="Card Number">
+                        <div class="payment-form-half">
+                            <input type="text" placeholder="Expiration">
+                            <input type="text" placeholder="CVV">
+                        </div>
+                    </div>
+                    <div class="payment-form-select">
+                        <select name="" id="">
+                            <option value="">Bangladesh</option>
+                            <option value="">Bangladesh</option>
+                            <option value="">Bangladesh</option>
+                            <option value="">Bangladesh</option>
+                            <option value="">Bangladesh</option>
+                            <option value="">Bangladesh</option>
+                            <option value="">Bangladesh</option>
+                            <option value="">Bangladesh</option>
+                            <option value="">Bangladesh</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="booking-cancel">
-                    <h4>Cancellation policy</h4>
+                    <h4 class="page-subtitle">Cancellation policy</h4>
                     <p>Cancel before check-in on Dec 24 for a partial refund. After that, this reservation is non-refundable. Learn more</p>
-                    <label for="">
-                        <input type="checkbox"> I agree to the property rules for guests, Rate Locker’s booking and refund policy, and you will be responsible for any property damage.
+                    <label>
+                        <input type="checkbox" name="agree1"> I agree to the property rules for guests, Rate Locker’s booking and refund policy, and you will be responsible for any property damage.
                     </label>
-                    <label for="">
-                        <input type="checkbox"> I also agree to the Terms of Service, Payments Terms of Service, and I acknowledge the Privacy Policy.
+                    <label>
+                        <input type="checkbox" name="agree2"> I also agree to the Terms of Service, Payments Terms of Service, and I acknowledge the Privacy Policy.
                     </label>
                     <a href="" class="btn-bg">Confirm Booking & Pay</a>
                 </div>

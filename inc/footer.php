@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <span class="footer-logo"><img src="assets/img/footer-icon.png" alt=""> Rate Locker</span>
+                <span class="footer-logo d-flex align-items-center"><img src="assets/img/footer-icon.png" alt=""> Rate Locker</span>
             </div>
         </div>
         <div class="row">

@@ -14,7 +14,7 @@
             <div class="col-md-10 mx-auto">
                 <div class="row align-items-center">
                     <div class="col-md-7">
-                        <div class="single-feature">
+                        <div class="single-feature d-flex align-items-center">
                             <span>
                                 <img src="assets/img/icons/feature-number-1.png" alt="">
                             </span>
@@ -33,7 +33,7 @@
                         <img src="assets/img//icons/feature-icon-2.png" alt="" class="single-feature-img">
                     </div>
                     <div class="col-md-7">
-                        <div class="single-feature">
+                        <div class="single-feature d-flex align-items-center">
                             <span>
                                 <img src="assets/img/icons/feature-number-2.png" alt="">
                             </span>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-7">
-                        <div class="single-feature">
+                        <div class="single-feature d-flex align-items-center">
                             <span>
                                 <img src="assets/img/icons/feature-number-3.png" alt="">
                             </span>
@@ -65,7 +65,7 @@
                         <img src="assets/img//icons/feature-icon-4.png" alt="" class="single-feature-img">
                     </div>
                     <div class="col-md-7">
-                        <div class="single-feature">
+                        <div class="single-feature d-flex align-items-center">
                             <span>
                                 <img src="assets/img/icons/feature-number-4.png" alt="">
                             </span>
@@ -106,7 +106,7 @@
                     <div class="room-image" style="background-image:url('assets/img/rooms/room1.png')"></div>
                     <div class="room-content">
                         <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
-                        <div class="room-feature">
+                        <div class="room-feature d-flex justify-content-between align-items-center">
                             <div class="room-icon">
                                 <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
                                 <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
@@ -115,7 +115,7 @@
                                 <img src="assets/img/icons/icon-home-wifi.png" alt="">
                                 <img src="assets/img/icons/icon-home-breakfast.png" alt="">
                             </div>
-                            <div class="room-rating">
+                            <div class="room-rating d-flex align-items-center">
                                 <img src="assets/img/icons/icon-star.png" alt=""> 4.8
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                     <div class="room-image" style="background-image:url('assets/img/rooms/room2.png')"></div>
                     <div class="room-content">
                         <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
-                        <div class="room-feature">
+                        <div class="room-feature d-flex justify-content-between align-items-center">
                             <div class="room-icon">
                                 <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
                                 <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
@@ -136,7 +136,7 @@
                                 <img src="assets/img/icons/icon-home-wifi.png" alt="">
                                 <img src="assets/img/icons/icon-home-breakfast.png" alt="">
                             </div>
-                            <div class="room-rating">
+                            <div class="room-rating d-flex align-items-center">
                                 <img src="assets/img/icons/icon-star.png" alt=""> 4.8
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                     <div class="room-image" style="background-image:url('assets/img/rooms/room3.png')"></div>
                     <div class="room-content">
                         <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
-                        <div class="room-feature">
+                        <div class="room-feature d-flex justify-content-between align-items-center">
                             <div class="room-icon">
                                 <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
                                 <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
@@ -157,7 +157,7 @@
                                 <img src="assets/img/icons/icon-home-wifi.png" alt="">
                                 <img src="assets/img/icons/icon-home-breakfast.png" alt="">
                             </div>
-                            <div class="room-rating">
+                            <div class="room-rating d-flex align-items-center">
                                 <img src="assets/img/icons/icon-star.png" alt=""> 4.8
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                     <div class="room-image" style="background-image:url('assets/img/rooms/room4.png')"></div>
                     <div class="room-content">
                         <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
-                        <div class="room-feature">
+                        <div class="room-feature d-flex justify-content-between align-items-center">
                             <div class="room-icon">
                                 <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
                                 <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
@@ -178,7 +178,7 @@
                                 <img src="assets/img/icons/icon-home-wifi.png" alt="">
                                 <img src="assets/img/icons/icon-home-breakfast.png" alt="">
                             </div>
-                            <div class="room-rating">
+                            <div class="room-rating d-flex align-items-center">
                                 <img src="assets/img/icons/icon-star.png" alt=""> 4.8
                             </div>
                         </div>
@@ -190,7 +190,7 @@
                     <div class="room-image" style="background-image:url('assets/img/rooms/room5.png')"></div>
                     <div class="room-content">
                         <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
-                        <div class="room-feature">
+                        <div class="room-feature d-flex justify-content-between align-items-center">
                             <div class="room-icon">
                                 <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
                                 <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
@@ -199,7 +199,7 @@
                                 <img src="assets/img/icons/icon-home-wifi.png" alt="">
                                 <img src="assets/img/icons/icon-home-breakfast.png" alt="">
                             </div>
-                            <div class="room-rating">
+                            <div class="room-rating d-flex align-items-center">
                                 <img src="assets/img/icons/icon-star.png" alt=""> 4.8
                             </div>
                         </div>
@@ -211,7 +211,7 @@
                     <div class="room-image" style="background-image:url('assets/img/rooms/room6.png')"></div>
                     <div class="room-content">
                         <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
-                        <div class="room-feature">
+                        <div class="room-feature d-flex justify-content-between align-items-center">
                             <div class="room-icon">
                                 <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
                                 <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
@@ -220,7 +220,7 @@
                                 <img src="assets/img/icons/icon-home-wifi.png" alt="">
                                 <img src="assets/img/icons/icon-home-breakfast.png" alt="">
                             </div>
-                            <div class="room-rating">
+                            <div class="room-rating d-flex align-items-center">
                                 <img src="assets/img/icons/icon-star.png" alt=""> 4.8
                             </div>
                         </div>
@@ -232,7 +232,7 @@
                     <div class="room-image" style="background-image:url('assets/img/rooms/room7.png')"></div>
                     <div class="room-content">
                         <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
-                        <div class="room-feature">
+                        <div class="room-feature d-flex justify-content-between align-items-center">
                             <div class="room-icon">
                                 <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
                                 <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
@@ -241,7 +241,7 @@
                                 <img src="assets/img/icons/icon-home-wifi.png" alt="">
                                 <img src="assets/img/icons/icon-home-breakfast.png" alt="">
                             </div>
-                            <div class="room-rating">
+                            <div class="room-rating d-flex align-items-center">
                                 <img src="assets/img/icons/icon-star.png" alt=""> 4.8
                             </div>
                         </div>
@@ -253,7 +253,7 @@
                     <div class="room-image" style="background-image:url('assets/img/rooms/room8.png')"></div>
                     <div class="room-content">
                         <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
-                        <div class="room-feature">
+                        <div class="room-feature d-flex justify-content-between align-items-center">
                             <div class="room-icon">
                                 <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
                                 <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
@@ -262,7 +262,7 @@
                                 <img src="assets/img/icons/icon-home-wifi.png" alt="">
                                 <img src="assets/img/icons/icon-home-breakfast.png" alt="">
                             </div>
-                            <div class="room-rating">
+                            <div class="room-rating d-flex align-items-center">
                                 <img src="assets/img/icons/icon-star.png" alt=""> 4.8
                             </div>
                         </div>
@@ -274,7 +274,7 @@
                     <div class="room-image" style="background-image:url('assets/img/rooms/room9.png')"></div>
                     <div class="room-content">
                         <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
-                        <div class="room-feature">
+                        <div class="room-feature d-flex justify-content-between align-items-center">
                             <div class="room-icon">
                                 <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
                                 <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
@@ -283,7 +283,7 @@
                                 <img src="assets/img/icons/icon-home-wifi.png" alt="">
                                 <img src="assets/img/icons/icon-home-breakfast.png" alt="">
                             </div>
-                            <div class="room-rating">
+                            <div class="room-rating d-flex align-items-center">
                                 <img src="assets/img/icons/icon-star.png" alt=""> 4.8
                             </div>
                         </div>
