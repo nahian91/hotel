@@ -1,4 +1,192 @@
-<?php include 'inc/header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Locker | Hotel Booking</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <header class="header home">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-xxl-2">
+                    <a href="" class="logo">
+                        <img src="assets/img/logo-white.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xxl-6">
+                    <ul class="menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Deals</a></li>
+                        <li><a href="">Property List</a></li>
+                        <li><a href="">Add Property</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-xxl-4">
+                    <div class="header-right text-end">
+                        <span class="user-profile" type="button" data-bs-toggle="dropdown" ><img src="assets/img/user-avatar.png" alt=""> Abir
+                             <ul class="dropdown-menu dropdown-menu-end">
+                                <li class="user-info">
+                                    <img src="assets/img/Rectangle 155.png" alt="">
+                                    <h4>A. B. Abir <span>debra.holt@example.com</span></h4>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><img src="assets/img/icons/header/icon-heart.png" alt=""> Favorites Rooms</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="assets/img/icons/header/icon-review.png" alt=""> Your Reviews</a></li>
+                                <li><a class="dropdown-item sep" href="#"><img src="assets/img/icons/header/icon-affiliate.png" alt=""> Affiliate Program</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="assets/img/icons/header/icon-manage.png" alt=""> Manage Account</a></li>
+                                <li><a class="dropdown-item sep" href="#"><img src="assets/img/icons/header/icon-settings.png" alt=""> Settings</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="assets/img/icons/header/icon-logout.png" alt=""> Sign Out</a></li>
+                            </ul>
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Plan Your Dream Trip In <span>Budget</span></h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <div class="col-md-5 ms-auto">
+                    <form action="" class="hero-form">
+                        <input type="text" placeholder="Cox's Bazar. Chittagong">
+                        <input type="text" placeholder="Cox's Bazar. Chittagong">
+                        <input type="text" placeholder="Cox's Bazar. Chittagong">
+                        <input type="text" placeholder="Cox's Bazar. Chittagong">
+                        <div class="hero-form-btn">
+                            <input type="submit" value="Request Booking" class="btn-bg">
+                            <input type="submit" value="Search" class="btn-border">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">                    
+                    <h4>Choose Your Destination</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="bannar">
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner bannar-inner">
+    <div class="carousel-item bannar-item active" style="background-image:url('./assets/img/home/sliders/slide-1.svg')">
+      <div class="carousel-caption bannar-caption">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="bannar-content">
+                        <h4><img src="assets/img/home/sliders/slider-icon-beach.svg" alt=""> Cox's Bazar. <br> Chittagong</h4>
+                        <p>Cox’s Bazar is a District under Chittagong Division, which is famous for its longest unbroken sandy sea beach. It is located 150 km south of the industrial port- Chittagong. Cox’s Bazar is considered as having the longest sea beach in the world, with a total of 121 kilometer long.</p>
+                        <a href="" class="btn-border">Explore Hotels</a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="bannar-img">
+                        <img src="assets/img/home/sliders/slide-small-1.svg" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item bannar-item" style="background-image:url('./assets/img/home/sliders/slide-2.svg')">
+      <div class="carousel-caption bannar-caption">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="bannar-content">
+                        <h4><img src="assets/img/home/sliders/slider-icon-beach.svg" alt=""> Cox's Bazar. <br> Chittagong</h4>
+                        <p>Cox’s Bazar is a District under Chittagong Division, which is famous for its longest unbroken sandy sea beach. It is located 150 km south of the industrial port- Chittagong. Cox’s Bazar is considered as having the longest sea beach in the world, with a total of 121 kilometer long.</p>
+                        <a href="" class="btn-border">Explore Hotels</a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="bannar-img">
+                        <img src="assets/img/home/sliders/slide-small-2.svg" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item bannar-item" style="background-image:url('./assets/img/home/sliders/slide-3.svg')">
+      <div class="carousel-caption bannar-caption">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="bannar-content">
+                        <h4><img src="assets/img/home/sliders/slider-icon-beach.svg" alt=""> Cox's Bazar. <br> Chittagong</h4>
+                        <p>Cox’s Bazar is a District under Chittagong Division, which is famous for its longest unbroken sandy sea beach. It is located 150 km south of the industrial port- Chittagong. Cox’s Bazar is considered as having the longest sea beach in the world, with a total of 121 kilometer long.</p>
+                        <a href="" class="btn-border">Explore Hotels</a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="bannar-img">
+                        <img src="assets/img/home/sliders/slide-small-3.svg" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</section>
+
+<section class="promo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="promo-content">
+                    <h4>Hotel Booking Within Your Budget Is Never Been <span>Easier</span></h4>
+                    <p>Pickup your phone today, and install our mobile app. After that, just one click away to find your dream hotel to your destination within your budget</p>
+                    <div class="promo-img">
+                        <img src="assets/img/home/home-qr-code.svg" alt="">
+                        <div class="promo-img-right">
+                            <a href=""><img src="assets/img/home/google-play-badge.svg" alt=""></a>
+                            <a href=""><img src="assets/img/home/apple-play-store.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <img src="assets/img/home/home-promo.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="features">
     <div class="container">
