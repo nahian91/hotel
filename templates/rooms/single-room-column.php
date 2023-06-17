@@ -16,13 +16,13 @@
                                 <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="2"></button>
                             </div>
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
+                                <div class="carousel-item active" style="background-image: ('assets/img/rooms/room-1.png');">
                                 <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="...">
                                 </div>
-                                <div class="carousel-item">
+                                <div class="carousel-item" style="background-image: ('assets/img/rooms/room-1.png');">
                                 <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="...">
                                 </div>
-                                <div class="carousel-item">
+                                <div class="carousel-item" style="background-image: ('assets/img/rooms/room-1.png');">
                                 <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="...">
                                 </div>
                             </div>
