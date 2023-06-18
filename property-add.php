@@ -190,7 +190,8 @@
                         </div>
                      </div>
                   </div>
-                  <input type="submit" name="submit" class="submit action-button" value="List Your Property"/>
+
+                  <input type="submit" name="submit" class="submit action-button" value="List Your Property" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
                   <input type="button" name="previous" class="previous action-button-previous" value="Go Back"/>
                </fieldset>
             </form>
@@ -199,4 +200,30 @@
       <!-- /.MultiStep Form -->
    </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/icons/icon-celebration.svg" alt="">
+        <h4>Thank For Showing Interest To Grow <br> Business With Rate Locker</h4>
+        <p>You request for add your property on rate locker is successfully completed. Very shortly our representative will contact with for setting up the system.</p>
+        <p>In the mean time, you can explore our site.</p>
+        <a href="">Back To Home ➡️</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <?php include 'inc/footer.php'; ?>

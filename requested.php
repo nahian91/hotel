@@ -269,29 +269,29 @@
                         <span class="room-column-icon">
                             <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
                         </span>
-                        <div id="room-indicator-1" class="carousel slide" data-bs-ride="carousel">
+                        <div id="room-slider-1" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="1"></button>
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#room-slider-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#room-slider-1" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#room-slider-1" data-bs-slide-to="2"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#room-indicator-1" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-1" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true">
                                     <img src="assets/img/icons/arrow_back.png" alt="">
                                 </span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#room-indicator-1" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#room-slider-1" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true">
                                     <img src="assets/img/icons/arrow_forward.png" alt="">
                                 </span>
@@ -339,29 +339,29 @@
                         <span class="room-column-icon">
                             <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
                         </span>
-                        <div id="room-indicator-1" class="carousel slide" data-bs-ride="carousel">
+                        <div id="room-slider-2" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="1"></button>
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#room-slider-2" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#room-slider-2" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#room-slider-2" data-bs-slide-to="2"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#room-indicator-1" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-2" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true">
                                     <img src="assets/img/icons/arrow_back.png" alt="">
                                 </span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#room-indicator-1" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#room-slider-2" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true">
                                     <img src="assets/img/icons/arrow_forward.png" alt="">
                                 </span>
@@ -407,29 +407,29 @@
                         <span class="room-column-icon">
                             <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
                         </span>
-                        <div id="room-indicator-1" class="carousel slide" data-bs-ride="carousel">
+                        <div id="room-slider-3" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="1"></button>
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#room-slider-3" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#room-slider-3" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#room-slider-3" data-bs-slide-to="2"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#room-indicator-1" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-3" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true">
                                     <img src="assets/img/icons/arrow_back.png" alt="">
                                 </span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#room-indicator-1" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#room-slider-3" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true">
                                     <img src="assets/img/icons/arrow_forward.png" alt="">
                                 </span>
@@ -475,29 +475,29 @@
                         <span class="room-column-icon">
                             <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
                         </span>
-                        <div id="room-indicator-1" class="carousel slide" data-bs-ride="carousel">
+                        <div id="room-slider-4" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="1"></button>
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#room-slider-4" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#room-slider-4" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#room-slider-4" data-bs-slide-to="2"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#room-indicator-1" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-4" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true">
                                     <img src="assets/img/icons/arrow_back.png" alt="">
                                 </span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#room-indicator-1" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#room-slider-4" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true">
                                     <img src="assets/img/icons/arrow_forward.png" alt="">
                                 </span>
@@ -536,29 +536,29 @@
                         <span class="room-column-icon">
                             <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
                         </span>
-                        <div id="room-indicator-1" class="carousel slide" data-bs-ride="carousel">
+                        <div id="room-slider-5" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="1"></button>
-                                <button type="button" data-bs-target="#room-indicator-1" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#room-slider-5" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#room-slider-5" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#room-slider-5" data-bs-slide-to="2"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#room-indicator-1" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-5" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true">
                                     <img src="assets/img/icons/arrow_back.png" alt="">
                                 </span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#room-indicator-1" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#room-slider-5" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true">
                                     <img src="assets/img/icons/arrow_forward.png" alt="">
                                 </span>

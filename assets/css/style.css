@@ -22,17 +22,18 @@ body, p, div{
   color: #475569;
   font-size: 18px;
   line-height: 27px;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', cursive;
   font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6{
   font-family: 'Marcellus', serif;
+  margin-bottom: 0;
 }
 span{
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', cursive;
 }
 
 /* Buttons */
@@ -1513,7 +1514,7 @@ span{
 /* Footer CSS */
 
 .footer {
-  background-color: #008080;
+  background-color: #115E59;
   padding: 64px 0;
 }
 .footer-logo {
