@@ -6,6 +6,11 @@
         <div class="row">
             <div class="col-md-12">
                 <form action="">
+                    <div class="filter-top d-flex justify-content-between align-items-center">
+                        <div class="filter-button position-relative"><img src="assets/img/icons/icon-discover.png" alt=""> Facilities  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
+                            <input type="text">
+                        </div> 
+                    </div>
                     <div class="filter-bottom d-flex justify-content-between align-items-center">
                         <span><img src="assets/img/icons/icon-discover.png" alt=""> All Filter</span>  
                         <div class="filter-button position-relative"><img src="assets/img/icons/icon-discover.png" alt=""> Facilities  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
@@ -14,44 +19,44 @@
                                     <h4>Facilities <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
                                     <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                                            <label for="btncheck1" class="btn-label"><img src="assets/img/icons/icon-fitness.svg" alt=""> Free Wi-Fi</label>
+                                            <input type="checkbox" class="btn-check" id="free-wifi" autocomplete="off">
+                                            <label for="free-wifi" class="btn-label"><img src="assets/img/icons/icon-fitness.svg" alt=""> Free Wi-Fi</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
-                                            <label for="btncheck2" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Room Service</label>
+                                            <input type="checkbox" class="btn-check" id="room-service" autocomplete="off">
+                                            <label for="room-service" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Room Service</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                                            <label for="btncheck3" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Fitness Center</label>
+                                            <input type="checkbox" class="btn-check" id="fitness-center" autocomplete="off">
+                                            <label for="fitness-center" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Fitness Center</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                                            <label for="btncheck4" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Parking</label>
+                                            <input type="checkbox" class="btn-check" id="parking" autocomplete="off">
+                                            <label for="parking" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Parking</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                                            <label for="btncheck4" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Pool</label>
+                                            <input type="checkbox" class="btn-check" id="pool" autocomplete="off">
+                                            <label for="pool" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Pool</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                                            <label for="btncheck4" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Air Conditioner</label>
+                                            <input type="checkbox" class="btn-check" id="air-conditioner" autocomplete="off">
+                                            <label for="air-conditioner" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Air Conditioner</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                                            <label for="btncheck4" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Resturant</label>
+                                            <input type="checkbox" class="btn-check" id="resturant" autocomplete="off">
+                                            <label for="resturant" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Resturant</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                                            <label for="btncheck4" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Spa</label>
+                                            <input type="checkbox" class="btn-check" id="spa" autocomplete="off">
+                                            <label for="spa" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Spa</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                                            <label for="btncheck4" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Pick & Drop</label>
+                                            <input type="checkbox" class="btn-check" id="pick-drop" autocomplete="off">
+                                            <label for="pick-drop" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Pick & Drop</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                                            <label for="btncheck4" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Private Beach</label>
+                                            <input type="checkbox" class="btn-check" id="private-beach" autocomplete="off">
+                                            <label for="private-beach" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Private Beach</label>
                                         </div>
                                     </div>
                                 </div>
@@ -63,28 +68,28 @@
                                     <h4>Meals <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
                                     <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                                            <label for="btncheck1" class="btn-label"><img src="assets/img/icons/icon-fitness.svg" alt=""> Breakfast</label>
+                                            <input type="checkbox" class="btn-check" id="breakfast" autocomplete="off">
+                                            <label for="breakfast" class="btn-label"><img src="assets/img/icons/icon-fitness.svg" alt=""> Breakfast</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
-                                            <label for="btncheck2" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Tea/Coffee</label>
+                                            <input type="checkbox" class="btn-check" id="tea-coffee" autocomplete="off">
+                                            <label for="tea-coffee" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Tea/Coffee</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                                            <label for="btncheck3" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Welcome Drink</label>
+                                            <input type="checkbox" class="btn-check" id="welcome-drink" autocomplete="off">
+                                            <label for="welcome-drink" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Welcome Drink</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                                            <label for="btncheck4" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> 3 Meals</label>
+                                            <input type="checkbox" class="btn-check" id="meals" autocomplete="off">
+                                            <label for="meals" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> 3 Meals</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                                            <label for="btncheck4" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Barbecue</label>
+                                            <input type="checkbox" class="btn-check" id="barbecue" autocomplete="off">
+                                            <label for="barbecue" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Barbecue</label>
                                         </div>
                                         <div class="single-filter-dropdown">
-                                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                                            <label for="btncheck4" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Couple Dinner</label>
+                                            <input type="checkbox" class="btn-check" id="couple-dinner" autocomplete="off">
+                                            <label for="couple-dinner" class="btn-label"><img src="assets/img/icons/icon-discover.png" alt=""> Couple Dinner</label>
                                         </div>
                                     </div>
                                 </div>
