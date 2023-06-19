@@ -46,6 +46,11 @@
 //FORM DATA
 
 $(document).ready(function() {
+
+	$(".date-picker").datepicker({
+        dateFormat: 'd M',
+		minDate: new Date()
+      });
 	$("#submitBtn").click(function() {
 	  var spaces = $("#spaces").val();
 	  var parkingPrice = $("#parkingPrice").val();
@@ -182,3 +187,4 @@ $(".submit").click(function(){
 function funcToggle() {
 	$(".cont").toggleClass('hidden');
   };
+

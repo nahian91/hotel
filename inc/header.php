@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/Pepper-Grinder/jquery-ui.css">
 </head>
 <body>
     <header class="header">
