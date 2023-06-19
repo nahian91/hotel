@@ -178,3 +178,7 @@ $(".previous").click(function(){
 $(".submit").click(function(){
 	return false;
 })
+
+function funcToggle() {
+	$(".cont").toggleClass('hidden');
+  };

@@ -18,36 +18,37 @@
                 </div>
                 <div class="payment-form-box">
                     <h4 class="page-subtitle">Pay With</h4>
-                    <ul class="payment-option">
-                        <li>
-                            <label>
-                                <input type="radio" name="test" value="small" checked>
-                                <img src="assets/img/icons/payment-card.svg" alt="Option 1">
-                                <span>Credit Card</span>
-                            </label>
-                        </li>
-                        <li>
-                            <label>
-                                <input type="radio" name="test" value="big">
-                                <img src="assets/img/icons/payment-bkash.svg" alt="Option 1">
-                                <span>bKash</span>
-                            </label>
-                        </li>
-                        <li>
-                            <label>
-                                <input type="radio" name="test" value="big">
-                                <img src="assets/img/icons/payment-nagad.svg" alt="Option 1">
-                                <span>Nagad</span>
-                            </label>
-                        </li>
-                        <li>
-                            <label>
-                                <input type="radio" name="test" value="big">
-                                <img src="assets/img/icons/payment-dbbl.svg" alt="Option 1">
-                                <span>DBBL Nesux</span>
-                            </label>
-                        </li>
-                    </ul>
+                    
+                    <div class="single-step-radio-image">
+                            <div class="step-radio-image-box">
+                                <input type="radio" name="payment" id="trade">
+                                <label for="trade">
+                                    <img src="assets/img/icons/payment-card.svg" alt="">
+                                    <span>Credit Card</span>
+                                </label>    
+                            </div>
+                            <div class="step-radio-image-box">
+                                <input type="radio" name="payment" id="tin">
+                                <label for="tin">
+                                    <img src="assets/img/icons/payment-bkash.svg" alt="">
+                                    <span>bKash</span>
+                                </label>    
+                            </div>
+                            <div class="step-radio-image-box">
+                                <input type="radio" name="payment" id="others">
+                                <label for="others">
+                                    <img src="assets/img/icons/payment-nagad.svg" alt="">
+                                    <span>Nagad</span>
+                                </label>      
+                            </div>  
+                            <div class="step-radio-image-box">
+                                <input type="radio" name="payment" id="others1">
+                                <label for="others1">
+                                    <img src="assets/img/icons/payment-dbbl.svg" alt="">
+                                    <span>DBBL Nesux</span>
+                                </label>      
+                            </div>                           
+                        </div>
                     <div class="payment-form">
                         <input type="text" placeholder="Card Holder Name">
                         <input type="text" placeholder="Card Number">
@@ -56,6 +57,7 @@
                             <input type="text" placeholder="CVV">
                         </div>
                     </div>
+
                     <div class="payment-form-select">
                         <select name="" id="">
                             <option value="">Bangladesh</option>
@@ -70,15 +72,22 @@
                         </select>
                     </div>
                 </div>
+                
+                <a href="#" class="payment-coupon">Enter Coupon</a>
+
                 <div class="booking-cancel">
                     <h4 class="page-subtitle">Cancellation policy</h4>
                     <p>Cancel before check-in on Dec 24 for a partial refund. After that, this reservation is non-refundable. Learn more</p>
-                    <label>
-                        <input type="checkbox" name="agree1"> I agree to the property rules for guests, Rate Locker’s booking and refund policy, and you will be responsible for any property damage.
-                    </label>
-                    <label>
-                        <input type="checkbox" name="agree2"> I also agree to the Terms of Service, Payments Terms of Service, and I acknowledge the Privacy Policy.
-                    </label>
+                    
+                    <div class="booking-agree">
+                        <input type="checkbox" id="agree1">
+                        <label for="agree1">I agree to the <a href="">property rules</a> for guests, Rate Locker’s booking and <a href="">refund policy</a>, and you will be responsible for any property damage.</label>
+                    </div>
+                    
+                    <div class="booking-agree">
+                        <input type="checkbox" id="agree2">
+                        <label for="agree2">I also agree to the <a href="">Terms of Service</a>, <a href="">Payments Terms of Service</a>, and I acknowledge the <a href="">Privacy Policy</a>.</label>
+                    </div>
                     <a href="" class="btn-bg">Confirm Booking & Pay</a>
                 </div>
             </div>
