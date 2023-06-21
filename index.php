@@ -89,7 +89,7 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner bannar-inner">
-    <div class="carousel-item bannar-item active" style="background-image:url('./assets/img/home/sliders/slide-1.svg')">
+    <div class="carousel-item bannar-item active" style="background-image:url('./assets/img/home/sliders/slide-3.jpg')">
       <div class="carousel-caption bannar-caption">
         <div class="container">
             <div class="row">
@@ -110,7 +110,7 @@
         </div>
       </div>
     </div>
-    <div class="carousel-item bannar-item" style="background-image:url('./assets/img/home/sliders/slide-2.svg')">
+    <div class="carousel-item bannar-item" style="background-image:url('./assets/img/home/sliders/slide-2.jpg')">
       <div class="carousel-caption bannar-caption">
         <div class="container">
             <div class="row">
@@ -131,7 +131,7 @@
         </div>
       </div>
     </div>
-    <div class="carousel-item bannar-item" style="background-image:url('./assets/img/home/sliders/slide-3.svg')">
+    <div class="carousel-item bannar-item" style="background-image:url('./assets/img/home/sliders/slide-3.jpg')">
       <div class="carousel-caption bannar-caption">
         <div class="container">
             <div class="row">
@@ -153,6 +153,7 @@
       </div>
     </div>
   </div>
+  <div class="num"></div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -164,8 +165,7 @@
 </div>
 
 </section>
-
-<section class="promo">
+<section class="promo position-relative">
     <div class="container">
         <div class="row">
             <div class="col-md-5">

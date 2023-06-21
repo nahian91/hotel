@@ -89,15 +89,16 @@
                                     <input type="text" placeholder="Check Out Date" class="date-picker">
                                 </div>
                             </div>
-                            <div class="filter-bottom d-flex justify-content-between align-items-center">
-                                <div class="filter-button position-relative"><img src="assets/img/icons/icon-discover.png" alt=""> Facilities  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
-                                    <div class="filter-dropdown">
-                                        <div class="filter-dropdown-box">
-                                            <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                
+                            <div class="review-input">
+                                <div class="review-input-box">  
+                                    <input type="number" placeholder="2 Adult">
+                                </div>
+                                <div class="review-input-box">
+                                    <input type="number" placeholder="0 Child">
+                                </div>
+                                <div class="review-input-box">
+                                    <input type="number" placeholder="1 Room">
+                                </div>
                             </div>
                             <input type="submit" value="Revise Query" class="btn-border d-block w-100">
                         </form>

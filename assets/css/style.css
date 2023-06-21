@@ -18,6 +18,9 @@ img{
   vertical-align: middle;
   max-width: 100%;
 }
+body{
+  overflow-x: hidden;
+}
 body, p, div{
   color: #475569;
   font-size: 18px;
@@ -111,7 +114,8 @@ span{
 
 
 .bannar-content {
-  text-align: left;
+	text-align: left;
+	padding-bottom: 130px;
 }
 .bannar-content h4 {
   display: flex;
@@ -132,32 +136,47 @@ span{
 .carousel-item.bannar-item {
 	background-size: cover;
 	background-position: center;
-  padding: 400px 0;
+  padding: 1230px 0 0;
 }
+
 
 .header.home {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  z-index: 9;
-}
-.header.home .menu li a {
-  color: #fff;
+  z-index: 99;
 }
 .home-hero {
   position: absolute;
   left: 0;
   right: 0;
-  z-index: 9;
+  z-index: 99;
   top: 180px;
 }
-
-.home-hero h1 {
-  font-size: 72px;
-  line-height: 79.2px;
+.header.home .menu li a {
   color: #fff;
-  margin-bottom: 0;
+}
+
+.home-hero h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 51px;
+  line-height: 61.2px;
+  margin-top: 120px;
+}
+
+
+.home-hero h1, .home-hero span {
+	font-size: 72px;
+	line-height: 79.2px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.home-hero span {
+	position: relative;
+	font-family: 'Marcellus', serif;
+	display: inline-block;
 }
 .home-hero p {
   color: #fff;
@@ -167,23 +186,83 @@ span{
   border-radius: 24px;
   padding: 26px 32px;
 }
+.carousel-caption.bannar-caption {
+	left: 0;
+	right: 0;
+}
 
+form {
+}
+.filter-top {
+  gap: 15px;
+}
+.filter-box {
+  position: relative;
+}
+.filter-box {
+}
+.filter-box:first-child input {
+  border: 1px solid #14B8A6;
+  border-radius: 8px;
+  padding: 13px;
+  position: relative;
+  background-color: #F0FDFA;
+  padding-left: 60px;
+}
+.filter-box:first-child input img {
+  position: absolute;
+  top: 0;
+}
+.filter-box:first-child img {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+}
+.filter-box {
+  position: relative;
+}
+
+.filter-box .review-input {
+  margin-bottom: 0;
+}
+.filter-top {
+  margin-bottom: 20px;
+}
+.review-input div:nth-child(2) input {
+  border-left: 0;
+}
+.review-input {
+  margin-bottom: 20px;
+}
+.home-hero h1 span:after {
+  background-image: url('../img/icons/divider.png');
+  position: absolute;
+  content: "";
+  background-position: center;
+  left: 0;
+  bottom: -15px;
+  width: 100%;
+  height: 20px;
+  background-size: cover;
+}
 /* Promo */
 
 .promo {
   background-color: #115E59;
   position: relative;
 }
-.promo:after{
-  content: "";
+.promo::after {
+	content: "";
   position: absolute;
-  background: linear-gradient(180deg, #115E59 100%, #115E59 0);
+  background: linear-gradient(90deg, #115E59 34.38%, rgba(255, 255, 255, 0) 100%);
   transform: matrix(1, 0, 0, -1, 0, 0);
   width: 100%;
   height: 480px;
   left: 0;
-  bottom: 0;
-  z-index: -1;
+  top: 0;
+  z-index: 999;
 }
 .promo h4 {
   font-size: 36px;
@@ -266,7 +345,10 @@ span{
   color: #0F766E;
 }
 .rooms-title h4 span {
-  position: relative;
+	position: relative;
+	font-size: 36px;
+	line-height: 46.8px;
+	font-family: 'Marcellus', serif;
 }
 .rooms-title h4 span:after{
   position: absolute;
@@ -533,6 +615,7 @@ span{
   border-bottom: 2px solid #FBBF24;
 }
 .subscribe h4 {
+  color: #fff;
   font-size: 56px;
   line-height: 66.2px;
   font-family: 'Marcellus';
@@ -592,6 +675,9 @@ span{
   border: 2px solid #2DD4BF;
   border-radius: 4px;
   margin-right: 12px;
+}
+.subscribe-check label{
+  color: #fff;
 }
 .subscribe-check label a {
   color: #fff;
@@ -2056,10 +2142,23 @@ span{
   border-radius: 0px 8px 8px 0px;
 }
 
-.review-input img {
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  width: 20px;
-  transform: translateY(-50%);
+.filter.sticky {
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  padding-top: 20px;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.12);
 }
+
+.room-search-map.sticky {
+  position: fixed;
+  left: auto;
+  width: 420px;
+  margin-top: 25px;
+  z-index: -1;
+}
+
+

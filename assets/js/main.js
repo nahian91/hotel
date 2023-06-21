@@ -188,3 +188,16 @@ function funcToggle() {
 	$(".cont").toggleClass('hidden');
   };
 
+
+  var div_top = $('.filter, .room-search-map').offset().top;
+
+$(window).scroll(function() {
+    var window_top = $(window).scrollTop() - 0;
+    if (window_top > div_top) {
+        if (!$('.filter, .room-search-map').is('.sticky')) {
+            $('.filter, .room-search-map').addClass('sticky');
+        }
+    } else {
+        $('.filter, .room-search-map').removeClass('sticky');
+    }
+});

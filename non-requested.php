@@ -5,6 +5,38 @@
         <div class="row">
             <div class="col-md-12">
                 <form action="">
+                    <div class="filter-top d-flex justify-content-between align-items-center">
+                        <div class="filter-box">  
+                            <img src="assets/img/icons/icon-air-condiitoner.png" alt="">                          
+                            <input type="text" placeholder="Cox's Bazar. Chittagong">
+                        </div>
+                        <div class="filter-box">
+                            <div class="review-input">
+                                <div class="review-input-box">  
+                                    <input type="text" placeholder="Check In" class="date-picker">
+                                </div>
+                                <div class="review-input-box">
+                                    <input type="text" placeholder="Check Out" class="date-picker">
+                                </div>
+                            </div>
+                    </div>
+                    <div class="filter-box">
+                        <div class="review-input">
+                            <div class="review-input-box">  
+                                <input type="number" placeholder="2 Adult">
+                            </div>
+                            <div class="review-input-box">
+                                <input type="number" placeholder="0 Child">
+                            </div>
+                            <div class="review-input-box">
+                                <input type="number" placeholder="1 Room">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-box">
+                        <a href="" class="btn btn-bg">Request</a>
+                    </div>
+                    </div>
                     <div class="filter-bottom d-flex justify-content-between align-items-center">
                         <span><img src="assets/img/icons/icon-discover.png" alt=""> All Filter</span>  
                         <div class="filter-button position-relative"><img src="assets/img/icons/icon-discover.png" alt=""> Facilities  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
@@ -303,7 +335,7 @@
                             <div class="room-search-price">
                                 <span>Price Starting From</span>
                                 <p>BDT 15,906</p>
-                                <a href="" class="btn-bg">Details</a>
+                                <a href="single-hotel-page.php" class="btn-bg">Details</a>
                             </div>
                         </div>
                     </div>
@@ -364,7 +396,7 @@
                             <div class="room-search-price">
                                 <span>Price Starting From</span>
                                 <p>BDT 7,400</p>
-                                <a href="" class="btn-bg">Details</a>
+                                <a href="single-hotel-page.php" class="btn-bg">Details</a>
                             </div>
                         </div>
                     </div>
@@ -425,7 +457,7 @@
                             <div class="room-search-price">
                                 <span>Price Starting From</span>
                                 <p>BDT 8,500</p>
-                                <a href="" class="btn-bg">Details</a>
+                                <a href="single-hotel-page.php" class="btn-bg">Details</a>
                             </div>
                         </div>
                     </div>
@@ -486,7 +518,7 @@
                             <div class="room-search-price">
                                 <span>Price Starting From</span>
                                 <p>BDT 8,400</p>
-                                <a href="" class="btn-bg">Details</a>
+                                <a href="single-hotel-page.php" class="btn-bg">Details</a>
                             </div>
                         </div>
                     </div>
@@ -547,7 +579,7 @@
                             <div class="room-search-price">
                                 <span>Price Starting From</span>
                                 <p>BDT 6,400</p>
-                                <a href="" class="btn-bg">Details</a>
+                                <a href="single-hotel-page.php" class="btn-bg">Details</a>
                             </div>
                         </div>
                     </div>
