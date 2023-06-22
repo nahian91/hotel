@@ -554,7 +554,7 @@ form {
 
 
   .dropdown-menu {
-    padding: 24px 0 36px;
+    padding: 10px 0 12px;
     margin-top: 10px !important;
     border-radius: 8px;
     border: 1px solid #E2E8F0;
@@ -704,10 +704,7 @@ form {
 	border-radius: 50%;
 	border: 1px solid #0F766E;
 }
-.dropdown-menu li:nth-child(3), .dropdown-menu li:nth-child(6) {
-  border-bottom: 1px solid #94A3B8;
-  padding-bottom: 15px;
-}
+
 
 
 .room-search-item {
@@ -2173,4 +2170,98 @@ label {
 }
 .dropdown-radio .single-filter-dropdown label input {
   margin-right: 10px;
+}
+
+.header-right span {
+  margin-left: 24px;
+}
+
+.btn-group.header-right-single button {
+  background-color: transparent;
+  border: 0;
+  font-family: 'Comfortaa';
+  color: #475569;
+}
+.btn-group.header-right-single .dropdown-toggle::after {
+  color: #14B8A6;
+  border-radius: ;
+}
+.btn-group.header-right-alert button {
+  background-color: transparent;
+  border: 1px solid #0F766E;
+  border-radius: 32px;
+  width: 40px;
+  height: 40px;
+  line-height: 20px;
+}
+.btn-group.header-right-alert button::after {
+  content: "";
+  display: none;
+}
+.btn-group.header-right-alert .dropdown-toggle:before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #EF4444;
+  border-radius: 50%;
+  right: 12px;
+  top: 10px;
+}
+.header-right .btn-group {
+	margin-left: 24px;
+}
+.header-alert-tab {
+	width: 400px;
+}
+
+.header-tab-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.header-tab-menu span {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Comfortaa';
+  position: relative;
+  margin: 0 30px;
+}
+.header-tab-menu span:after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #EF4444;
+  border-radius: 50%;
+  right: -15px;
+  bottom: 7px;
+}
+.header-tab-menu span.active {
+  border-bottom: 2px solid #14B8A6;
+}
+.header-tab-menu span.active:after {
+  display: none;
+}
+.single-alert {
+	padding: 24px;
+	border-bottom: 1px solid #94A3B8;
+	display: flex;
+	justify-content: space-between;
+}
+.single-alert h4 span {
+  display: block;
+  margin-left: 0;
+  font-size: 13px;
+  line-height: 20.8px;
+  font-family: 'Comfortaa';
+  max-height: 20px;
+  overflow: hidden;
+}
+.single-alert:last-child {
+  border-bottom: 0;
+}
+.btn-group.header-right-alert .dropdown-menu {
+  padding-bottom: 0;
 }
