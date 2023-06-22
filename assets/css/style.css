@@ -2162,3 +2162,15 @@ form {
 }
 
 
+
+label {
+}
+.dropdown-radio .single-filter-dropdown label {
+  border: 0;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0;
+}
+.dropdown-radio .single-filter-dropdown label input {
+  margin-right: 10px;
+}
