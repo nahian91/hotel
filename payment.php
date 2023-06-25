@@ -73,7 +73,10 @@
                     </div>
                 </div>
                 
-                <a href="#" class="payment-coupon">Enter Coupon</a>
+                <div class="payment-coupon-form">
+                    <button id="payment-btn">Enter Coupon</button>
+                    <input type="text" placeholder="Coupon Code" id="theParagraph" class="hidden">
+                </div>
 
                 <div class="booking-cancel">
                     <h4 class="page-subtitle">Cancellation policy</h4>

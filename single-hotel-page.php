@@ -81,12 +81,26 @@
                         <form action="">
                             <div class="review-input">
                                 <div class="review-input-box">  
-                                    <img src="assets/img/icons/icon-air-condiitoner.png" alt="">
-                                    <input type="text" placeholder="Check In Date" class="date-picker">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_281_1609" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+                                    <rect y="0.5" width="24" height="24" fill="#D9D9D9"/>
+                                    </mask>
+                                    <g mask="url(#mask0_281_1609)">
+                                    <path d="M17 22.5V19.5H14V17.5H17V14.5H19V17.5H22V19.5H19V22.5H17ZM5 20.5C4.45 20.5 3.979 20.3043 3.587 19.913C3.19567 19.521 3 19.05 3 18.5V6.5C3 5.95 3.19567 5.47933 3.587 5.088C3.979 4.696 4.45 4.5 5 4.5H6V2.5H8V4.5H14V2.5H16V4.5H17C17.55 4.5 18.021 4.696 18.413 5.088C18.8043 5.47933 19 5.95 19 6.5V12.6C18.6667 12.55 18.3333 12.525 18 12.525C17.6667 12.525 17.3333 12.55 17 12.6V10.5H5V18.5H12C12 18.8333 12.025 19.1667 12.075 19.5C12.125 19.8333 12.2167 20.1667 12.35 20.5H5ZM5 8.5H17V6.5H5V8.5Z" fill="#14B8A6"/>
+                                    </g>
+                                    </svg>
+                                    <input type="text" placeholder="Check In" class="date-picker">
                                 </div>
                                 <div class="review-input-box">
-                                    <img src="assets/img/icons/icon-air-condiitoner.png" alt="">
-                                    <input type="text" placeholder="Check Out Date" class="date-picker">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_281_1609" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+                                    <rect y="0.5" width="24" height="24" fill="#D9D9D9"/>
+                                    </mask>
+                                    <g mask="url(#mask0_281_1609)">
+                                    <path d="M17 22.5V19.5H14V17.5H17V14.5H19V17.5H22V19.5H19V22.5H17ZM5 20.5C4.45 20.5 3.979 20.3043 3.587 19.913C3.19567 19.521 3 19.05 3 18.5V6.5C3 5.95 3.19567 5.47933 3.587 5.088C3.979 4.696 4.45 4.5 5 4.5H6V2.5H8V4.5H14V2.5H16V4.5H17C17.55 4.5 18.021 4.696 18.413 5.088C18.8043 5.47933 19 5.95 19 6.5V12.6C18.6667 12.55 18.3333 12.525 18 12.525C17.6667 12.525 17.3333 12.55 17 12.6V10.5H5V18.5H12C12 18.8333 12.025 19.1667 12.075 19.5C12.125 19.8333 12.2167 20.1667 12.35 20.5H5ZM5 8.5H17V6.5H5V8.5Z" fill="#14B8A6"/>
+                                    </g>
+                                    </svg>
+                                    <input type="text" placeholder="Check Out" class="date-picker">
                                 </div>
                             </div>
                             <div class="review-input">
@@ -162,8 +176,23 @@
                                 <span><img src="assets/img/icons/icon-air-condiitoner.png" alt=""> Air Conditioner</span>
                             </div>
                         </div>
-                        <div class="room-search-bottom d-flex justify-content-between align-items-end">
-                            
+                        <div class="room-search-bottom d-flex flex-column justify-content-between align-items-end">
+                        <div class="room-search-timer color-blue" data-date="November 22, 2023 21:14:01">
+                            <span>
+                            <svg width="18" height="18" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_356_1664" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="18" height="18">
+                                    <rect width="18" height="18" fill="#D9D9D9"/>
+                                </mask>
+                                <g mask="url(#mask0_356_1664)">
+                                    <path d="M4.66683 11.6665H9.3335V9.9165C9.3335 9.27484 9.10502 8.72553 8.64808 8.26859C8.19113 7.81164 7.64183 7.58317 7.00016 7.58317C6.3585 7.58317 5.80919 7.81164 5.35225 8.26859C4.8953 8.72553 4.66683 9.27484 4.66683 9.9165V11.6665ZM11.0835 12.8332H2.91683C2.75155 12.8332 2.61291 12.7772 2.50091 12.6652C2.3893 12.5536 2.3335 12.4151 2.3335 12.2498C2.3335 12.0846 2.3893 11.9461 2.50091 11.8345C2.61291 11.7225 2.75155 11.6665 2.91683 11.6665H3.50016V9.9165C3.50016 9.32345 3.6388 8.76675 3.91608 8.24642C4.19297 7.72648 4.57933 7.31095 5.07516 6.99984C4.57933 6.68873 4.19297 6.273 3.91608 5.75267C3.6388 5.23273 3.50016 4.67623 3.50016 4.08317V2.33317H2.91683C2.75155 2.33317 2.61291 2.27717 2.50091 2.16517C2.3893 2.05356 2.3335 1.91512 2.3335 1.74984C2.3335 1.58456 2.3893 1.44592 2.50091 1.33392C2.61291 1.22231 2.75155 1.1665 2.91683 1.1665H11.0835C11.2488 1.1665 11.3872 1.22231 11.4988 1.33392C11.6108 1.44592 11.6668 1.58456 11.6668 1.74984C11.6668 1.91512 11.6108 2.05356 11.4988 2.16517C11.3872 2.27717 11.2488 2.33317 11.0835 2.33317H10.5002V4.08317C10.5002 4.67623 10.3617 5.23273 10.0848 5.75267C9.80755 6.273 9.421 6.68873 8.92516 6.99984C9.421 7.31095 9.80755 7.72648 10.0848 8.24642C10.3617 8.76675 10.5002 9.32345 10.5002 9.9165V11.6665H11.0835C11.2488 11.6665 11.3872 11.7225 11.4988 11.8345C11.6108 11.9461 11.6668 12.0846 11.6668 12.2498C11.6668 12.4151 11.6108 12.5536 11.4988 12.6652C11.3872 12.7772 11.2488 12.8332 11.0835 12.8332Z" fill="#0369A1"/>
+                                </g>
+                            </svg>
+                            </span>
+                            <span class="days"></span>
+                            <span class="hours"></span>
+                            <span class="minutes"></span>
+                            <span class="seconds"></span>
+                        </div>
                             <div class="room-search-price">
                                 <h5>Accepted <span>5% off</span></h5>
                                 <p><del>BDT 15,906</del> BDT 14,906</p>
@@ -174,58 +203,70 @@
                 </div>
                 <div class="room-search-item">
                     <div class="room-column-slider">
-                        <span class="room-column-badge">Most Popular</span>
                         <span class="room-column-icon">
                             <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
                         </span>
-                        <div id="room-response-2" class="carousel slide" data-bs-ride="carousel">
+                        <div id="room-response-1" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#room-response-2" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                <button type="button" data-bs-target="#room-response-2" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#room-response-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#room-response-1" data-bs-slide-to="1"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/rooms/room-response-2.svg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
                                     <img src="assets/img/rooms/room-response-1.svg" class="d-block w-100" alt="...">
                                 </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/rooms/room-response-2.svg" class="d-block w-100" alt="...">
+                                </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#room-response-2" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#room-response-1" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon"  >
                                     <img src="assets/img/icons/arrow_back.png" alt="">
                                 </span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#room-response-2" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#room-response-1" data-bs-slide="next">
                                 <span class="carousel-control-next-icon"  >
                                     <img src="assets/img/icons/arrow_forward.png" alt="">
                                 </span>
                             </button>
                         </div>
                     </div>
-                    <div class="room-search-box">
-                        <div class="room-search-top d-flex justify-content-between align-items-start">
+                    <div class="room-search-box d-flex justify-content-between align-items-end">
+                        <div class="room-search-top">
                             <div class="room-search-top-info">
                                 <span><img src="assets/img/icons/icon-home.png" alt=""> Hotel</span>
                                 <h4>Seacrest Oceanfront Resort</h4>
-                                <p><img src="assets/img/icons/icon-pin.png" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
+                                <p>1 Room | 1 Twin Bed | 2 Guests</p>
+                                <h5>Breakfast buffet included </h5>
                             </div>
-                            <div class="room-search-top-rating d-flex justify-content-between align-items-center">
-                                <h5>Rating span <span>1234 reviews</span></h5>
-                                <p>4.8</p>
-                            </div>
-                        </div>
-                        <div class="room-search-bottom d-flex justify-content-between align-items-end">
                             <div class="room-search-features">
                                 <span><img src="assets/img/icons/icon-welcome-drink.png" alt=""> Welcome Drink</span>
                                 <span><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</span>
                                 <span><img src="assets/img/icons/icon-tea.png" alt=""> Tea/Coffee</span>
                                 <span><img src="assets/img/icons/icon-air-condiitoner.png" alt=""> Air Conditioner</span>
                             </div>
+                        </div>
+                        <div class="room-search-bottom d-flex flex-column justify-content-between align-items-end">
+                        <div class="room-search-timer color-blue" data-date="November 22, 2023 21:14:01">
+                            <span>
+                            <svg width="18" height="18" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_356_1664" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="18" height="18">
+                                    <rect width="18" height="18" fill="#D9D9D9"/>
+                                </mask>
+                                <g mask="url(#mask0_356_1664)">
+                                    <path d="M4.66683 11.6665H9.3335V9.9165C9.3335 9.27484 9.10502 8.72553 8.64808 8.26859C8.19113 7.81164 7.64183 7.58317 7.00016 7.58317C6.3585 7.58317 5.80919 7.81164 5.35225 8.26859C4.8953 8.72553 4.66683 9.27484 4.66683 9.9165V11.6665ZM11.0835 12.8332H2.91683C2.75155 12.8332 2.61291 12.7772 2.50091 12.6652C2.3893 12.5536 2.3335 12.4151 2.3335 12.2498C2.3335 12.0846 2.3893 11.9461 2.50091 11.8345C2.61291 11.7225 2.75155 11.6665 2.91683 11.6665H3.50016V9.9165C3.50016 9.32345 3.6388 8.76675 3.91608 8.24642C4.19297 7.72648 4.57933 7.31095 5.07516 6.99984C4.57933 6.68873 4.19297 6.273 3.91608 5.75267C3.6388 5.23273 3.50016 4.67623 3.50016 4.08317V2.33317H2.91683C2.75155 2.33317 2.61291 2.27717 2.50091 2.16517C2.3893 2.05356 2.3335 1.91512 2.3335 1.74984C2.3335 1.58456 2.3893 1.44592 2.50091 1.33392C2.61291 1.22231 2.75155 1.1665 2.91683 1.1665H11.0835C11.2488 1.1665 11.3872 1.22231 11.4988 1.33392C11.6108 1.44592 11.6668 1.58456 11.6668 1.74984C11.6668 1.91512 11.6108 2.05356 11.4988 2.16517C11.3872 2.27717 11.2488 2.33317 11.0835 2.33317H10.5002V4.08317C10.5002 4.67623 10.3617 5.23273 10.0848 5.75267C9.80755 6.273 9.421 6.68873 8.92516 6.99984C9.421 7.31095 9.80755 7.72648 10.0848 8.24642C10.3617 8.76675 10.5002 9.32345 10.5002 9.9165V11.6665H11.0835C11.2488 11.6665 11.3872 11.7225 11.4988 11.8345C11.6108 11.9461 11.6668 12.0846 11.6668 12.2498C11.6668 12.4151 11.6108 12.5536 11.4988 12.6652C11.3872 12.7772 11.2488 12.8332 11.0835 12.8332Z" fill="#0369A1"/>
+                                </g>
+                            </svg>
+                            </span>
+                            <span class="days"></span>
+                            <span class="hours"></span>
+                            <span class="minutes"></span>
+                            <span class="seconds"></span>
+                        </div>
                             <div class="room-search-price">
-                                <span>Price Starting From</span>
-                                <p>BDT 15,906</p>
-                                <a href="" class="btn-bg">Details</a>
+                                <h5>Accepted <span>5% off</span></h5>
+                                <p><del>BDT 15,906</del> BDT 14,906</p>
+                                <a href="" class="btn-bg">Book The Room</a>
                             </div>
                         </div>
                     </div>

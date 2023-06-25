@@ -180,6 +180,13 @@ $(".previous").click(function(){
 	});
 });
 
+let toggler = document.getElementById('payment-btn');
+console.log(toggler);
+toggler.onclick = function(){
+  let paragraph = document.getElementById('theParagraph');
+  paragraph.classList.toggle("hidden");
+};
+
 $(".submit").click(function(){
 	return false;
 })

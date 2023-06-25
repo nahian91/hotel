@@ -1,3 +1,4 @@
+<!-- Footer --> 
 <footer class="footer">
     <div class="container">
         <div class="row">
@@ -7,6 +8,7 @@
         </div>
         <div class="row">
             <div class="col-xxl-3">
+                <!-- Single Footer --> 
                 <div class="single-footer">
                     <h4>Company</h4>
                     <a href="">About</a>
@@ -19,6 +21,7 @@
                 </div>
             </div>
             <div class="col-xxl-3">
+                <!-- Single Footer --> 
                 <div class="single-footer">
                     <h4>Policies</h4>
                     <a href="">Privacy policy</a>
@@ -30,6 +33,7 @@
                 </div>
             </div>
             <div class="col-xxl-3">
+                <!-- Single Footer --> 
                 <div class="single-footer">
                     <h4>Help</h4>
                     <a href="">Support</a>
@@ -41,6 +45,7 @@
                 </div>
             </div>
             <div class="col-xxl-3">
+                <!-- Single Footer --> 
                 <div class="single-footer">
                     <h4>Sales & Marketing</h4>
                     <span><img src="assets/img/footer-phone.png" alt=""> 077 4952 5383</span>
@@ -48,6 +53,7 @@
                 </div>
             </div>
             <div class="col-xxl-12">
+                <!-- Footer Copy --> 
                 <div class="footer-copy">
                     <p>Rate Locker Ltd. is not responsible for content on external Web sites.</p>
                     <p>&copy; 2023 Rate Locker Ltd., an Noorjahan Group company. All rights reserved. Rate Locker Ltd.</p>
@@ -57,10 +63,15 @@
     </div>
 </footer>
 
+<!-- jQuery Library -->
 <script src="assets/js/jquery.min.js"></script>
+<!-- Bootstrap Bundle JS -->
 <script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery Easing -->
 <script src="assets/js/jquery.easing.min.js"></script>
+<!-- jQuery UI -->
 <script src="assets/js/jquery-ui.js"></script>
+<!-- jQuery Main -->
 <script src="assets/js/main.js"></script>
 </body>
 </html>
