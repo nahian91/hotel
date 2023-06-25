@@ -84,13 +84,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-1" data-bs-slide="prev">
@@ -140,13 +140,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-2" data-bs-slide="prev">
@@ -195,13 +195,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-3" data-bs-slide="prev">
@@ -263,13 +263,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-4" data-bs-slide="prev">
@@ -319,13 +319,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-5" data-bs-slide="prev">
@@ -374,13 +374,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-1.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-2.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/rooms/room-3.png" class="d-block w-100" alt="Alt Text">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-6" data-bs-slide="prev">
@@ -508,7 +508,7 @@
                         </div>
                         <span class="review-date">Sep 27, 2016</span>
                     </div>
-                    <p class="review-desc">“I ordered a Balmain T-shirt dress from here and it is fabulous. The packaging was extremely professional and nice and sweets were added in the box. Extremely sa...”</p>
+                    <p class="review-desc">“I ordered a Balmain T-shirt dress from here and it is fabulous. The packaging was extremely professional and nice and sweets were added in the box. Extremely saAlt Text”</p>
                 </div>
                 <div class="single-review">
                     <div class="review-top d-flex justify-content-between align-items-end">
@@ -538,7 +538,7 @@
                         </div>
                         <span class="review-date">Sep 27, 2016</span>
                     </div>
-                    <p class="review-desc">“I tried the Hair mask first and its the best one I've ever tried love it. I've gone to buy the pamper packs for myself and as presents 🎁 could ot recommend en...”</p>
+                    <p class="review-desc">“I tried the Hair mask first and its the best one I've ever tried love it. I've gone to buy the pamper packs for myself and as presents 🎁 could ot recommend enAlt Text”</p>
                 </div>
                 <div class="single-review">
                     <div class="review-top d-flex justify-content-between align-items-end">

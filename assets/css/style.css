@@ -73,7 +73,7 @@ span{
 /* Header CSS */
 
 .header {
-	padding: 50px 0 72px;
+	padding: 30px 0 50px;
 }
 .menu {
   list-style: none;
@@ -157,7 +157,17 @@ span{
 .header.home .menu li a {
   color: #fff;
 }
-
+.home-hero h1 span:after {
+  background-image: url('../img/icons/divider.png');
+  position: absolute;
+  content: "";
+  background-position: center;
+  left: 0;
+  bottom: -15px;
+  width: 100%;
+  height: 20px;
+  background-size: cover;
+}
 .home-hero h4 {
   text-align: center;
   color: #fff;
@@ -191,62 +201,6 @@ span{
 	right: 0;
 }
 
-form {
-}
-.filter-top {
-  gap: 15px;
-}
-.filter-box {
-  position: relative;
-}
-.filter-box {
-}
-.filter-box:first-child input {
-  border: 1px solid #14B8A6;
-  border-radius: 8px;
-  padding: 13px;
-  position: relative;
-  background-color: #F0FDFA;
-  padding-left: 60px;
-}
-.filter-box:first-child input img {
-  position: absolute;
-  top: 0;
-}
-.filter-box:first-child img {
-  position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 4;
-}
-.filter-box {
-  position: relative;
-}
-
-.filter-box .review-input {
-  margin-bottom: 0;
-}
-.filter-top {
-  margin-bottom: 20px;
-}
-.review-input div:nth-child(2) input {
-  border-left: 0;
-}
-.review-input {
-  margin-bottom: 20px;
-}
-.home-hero h1 span:after {
-  background-image: url('../img/icons/divider.png');
-  position: absolute;
-  content: "";
-  background-position: center;
-  left: 0;
-  bottom: -15px;
-  width: 100%;
-  height: 20px;
-  background-size: cover;
-}
 /* Promo */
 
 .promo {
@@ -382,18 +336,18 @@ form {
   padding: 16px 16px 20px 16px;
   z-index: 2;
 }
-.room-content:after {
-  content: "";
-  position: absolute;
-  width: 104%;
-  height: 100%;
-  background-color: #008080;
-  left: 0;
-  bottom: 0;
-  border-radius: 0 0 24px 24px;
-  z-index: -1;
-  opacity: 0.9;
-  right: 0;
+.room-content::after {
+	content: "";
+	position: absolute;
+	width: 104%;
+	height: 100%;
+	background: rgba(15, 118, 110, 0.80);
+	left: 0;
+	bottom: 0;
+	border-radius: 0 0 24px 24px;
+	z-index: -1;
+	right: 0;
+	backdrop-filter: blur(8px);
 }
 .room-content h4 {
   font-size: 23px;
@@ -462,6 +416,9 @@ form {
   text-align: center;
   margin-bottom: 16px;
 }
+.single-filter-dropdown svg {
+	margin-bottom: 8px;
+}
 .single-filter-dropdown label, .filter-dropdown.dropdown-radio .single-filter-dropdown {
 	width: 100%;
 	display: flex;
@@ -515,6 +472,113 @@ form {
 .filter-button:nth-child(6) .filter-dropdown, .filter-button:nth-child(7) .filter-dropdown{
   right: 0;
   left: auto;
+}
+.filter-top {
+  gap: 15px;
+}
+.filter-box {
+  position: relative;
+}
+.filter-box {
+}
+.filter-box:first-child input {
+  border: 1px solid #14B8A6;
+  border-radius: 8px;
+  padding: 13px;
+  position: relative;
+  background-color: #F0FDFA;
+  padding-left: 60px;
+}
+.filter-box:first-child input img {
+  position: absolute;
+  top: 0;
+}
+.filter-box:first-child img {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+}
+.filter-box {
+  position: relative;
+}
+
+.filter-box .review-input {
+  margin-bottom: 0;
+}
+.filter-top {
+  margin-bottom: 20px;
+}
+.review-input div:nth-child(2) input {
+  border-left: 0;
+}
+.review-input {
+  margin-bottom: 20px;
+}
+
+.alert-countdown .room-search-timer span:first-child {
+  margin-right: -10px;
+  margin-top: -2px;
+}
+
+.alert-countdown .room-search-timer.color-orange {
+  border-color: #F59E0B;
+  background-color: #FFFBEB;
+}
+
+.alert-countdown .room-search-timer.color-red {
+  border-color: #EF4444;
+  background-color: #FEF2F2;
+}
+
+.alert-countdown {
+  width: 190px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.alert-countdown span.seconds {
+  display: none;
+}
+.alert-countdown .room-search-timer {
+  margin-bottom: 0;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #64748B;
+  width: 100px;
+  background-color: #fff;
+}
+.alert-countdown .room-search-timer span {
+  margin-left: 0;
+  position: relative;
+  text-align: center;
+}
+.alert-countdown span.number {
+  margin-left: 0;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #64748B;
+  margin-left: 6px;
+  background-color: #fff;
+}
+
+.single-alert.active {
+  background-color: #CCFBF1;
+}
+.single-alert.active h4 {
+  position: relative;
+  padding-left: 20px;
+}
+.single-alert.active h4:before {
+  position: absolute;
+  content: "";
+  background-color: #EF4444;
+  width: 8px;
+  height: 8px;
+  left: 0;
+  top: 10px;
+  border-radius: 8px;
 }
 
 
@@ -2212,9 +2276,75 @@ label {
 	margin-left: 24px;
 }
 .header-alert-tab {
+	width: 450px;
+}
+
+.alert-countdown .room-search-timer span.hours:after {
+  content: ":";
+  position: absolute;
+  left: 29px;
+  top: -2px;
+}
+
+.alert-countdown .room-search-timer.color-blue {
+  border-color: #0EA5E9;
+}
+.alert-countdown .room-search-timer.color-blue span {
+  color: #0369A1;
+}
+
+.single-alert.active .alert-countdown span.number {
+	border-color: #0EA5E9;
+}
+
+.header-right-profile .dropdown-menu {
 	width: 400px;
 }
 
+.header-right-profile ul li.dropdown-top {
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.header-right-profile .dropdown-menu li {
+  margin: 16px 0;
+}
+.header-right-profile .dropdown-menu li a svg {
+  margin-right: 5px;
+}
+.header-right-profile ul li.dropdown-top img {
+  border-radius: 50%;
+  border: 1px solid #14B8A6;
+  margin-right: 16px;
+}
+.header-right-profile ul li.dropdown-top h4 {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Comfortaa';
+}
+.header-right-profile ul li.dropdown-top h4 span {
+  display: block;
+  margin-left: 0;
+  font-size: 13px;
+  line-height: 20.8px;
+}
+
+.btn-group.header-right-profile button {
+  background-color: transparent;
+  border: 1px solid #0F766E;
+  padding: 8px 16px;
+  border-radius: 24px;
+}
+.btn-group.header-right-profile button img {
+  border: 1px solid #0F766E;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.btn-group.header-right-profile button:after {
+  display: none;
+}
 .header-tab-menu {
   display: flex;
   justify-content: center;
@@ -2264,4 +2394,21 @@ label {
 }
 .btn-group.header-right-alert .dropdown-menu {
   padding-bottom: 0;
+}
+
+.ui-datepicker table {
+	background-color: #F0FDFA;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+	border: 1px solid #115E59;
+	background: none;
+	color: #fff;
+	background-color: #115E59 !important;
+}
+
+.ui-state-default:hover {
+  background-color: #0D9488;
+}
+.ui-state-default {
+  color: #fff;
 }

@@ -201,3 +201,5 @@ $(window).scroll(function() {
         $('.filter, .room-search-map').removeClass('sticky');
     }
 });
+
+
