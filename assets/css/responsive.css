@@ -1,0 +1,178 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
+    .room-search-item {
+        flex-direction: column;
+    }
+    .room-column-slider {
+        width: 100%;
+    }    
+    .room-search-top {
+        flex-direction: column;
+    }
+    .room-search-box {
+        width: 100%;
+    }
+    .room-search-top-rating {
+        margin: 20px 0;
+    }
+    
+.single-footer {
+    margin-bottom: 40px;
+  }
+  .filter-top {
+	margin-bottom: 20px;
+	flex-direction: column;
+}
+
+.filter-bottom {
+    flex-direction: column;
+  }
+  .filter-bottom .filter-button {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .filter-dropdown-box {
+    width: 100%;
+  }
+.filter-button:nth-child(7) .filter-dropdown {
+    left: 0;
+    right: auto;
+  }
+  .page-title {
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 35px;
+}
+.page-subtitle {
+	font-size: 25px;
+	line-height: 32px;
+	margin-bottom: 24px;
+}
+.single-step-radio-image {
+	flex-wrap: wrap;
+}
+.step-radio-image-box {
+	margin-right: 35px;
+	margin-bottom: 15px;
+}
+
+.booking-summary {
+    margin-top: 30px;
+  }
+  .booking-summary-top {
+    flex-direction: column;
+  }
+  .booking-summary-top img {
+    margin-bottom: 10px;
+  }
+  .booking-summary-info span {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .header-right.text-end {
+    text-align: center !important;
+  }
+  .header-right .btn-group {
+    margin-left: 0;
+    margin: 0 12px;
+  }
+.step .col {
+    flex: auto;
+  }
+
+  .single-room-gallery {
+    margin-bottom: 30px;
+  }
+  .single-room-column {
+    margin-bottom: 30px;
+  }
+  .single-room-column-area {
+    padding-top: 0;
+  }
+  .review-loadbtn a.btn-border {
+    padding: 16px 70px;
+  }
+  .rooms-section-title h4 {
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.room-response-top {
+    flex-direction: column;
+  }
+  .room-response-top h4 {
+    margin-bottom: 30px;
+  }
+  .room-response .room-search-item {
+    flex-direction: column;
+  }
+  .single-room-column-area .section-title {
+    margin-top: 60px;
+  }
+  .room-response .room-search-box {
+	width: 100%;
+	flex-direction: column;
+}
+
+.room-response .room-search-features {
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .room-search-bottom {
+    text-align: center;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .room-response {
+	padding: 16px;
+}
+
+.filter-result-top {
+    flex-direction: column;
+    width: 100%;
+  }
+  .filter-result-top li {
+    margin-right: 0;
+    margin: 10px 0;
+    text-align: left;
+  }
+  .filter-result-top li::after {
+    display: none;
+  }
+  .room-search-features {
+    text-align: left;
+  }
+  .room-search-price p del {
+    display: block;
+    margin-top: 10px;
+  }
+  .room-search-price a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}

@@ -10,6 +10,7 @@
 }
 a{
   text-decoration: none;
+  transition: .3s;
 }
 ul{
   list-style: none;
@@ -73,7 +74,7 @@ span{
 /* Header CSS */
 
 .header {
-	padding: 30px 0 50px;
+	padding: 50px;
 }
 .menu {
   list-style: none;
@@ -91,6 +92,7 @@ span{
   line-height: 27px;
   transition: .3s;
   position: relative;
+  margin-right: 15px;
 }
 .menu li a:before {
   position: absolute;
@@ -104,6 +106,24 @@ span{
 }
 .menu li a:hover:before {
   width: 100%;
+}
+.menu li {
+  margin-left: 0;
+}
+.menu {
+  margin-left: 35px;
+}
+.menu li a {
+  padding: 0;
+}
+.navbar-expand-lg .navbar-collapse {
+  align-items: flex-end;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding: 0;
+}
+.navbar-brand {
+  padding: 0;
 }
 .header.home {
   position: absolute;
@@ -232,7 +252,87 @@ span{
 .header-right-alert .dropdown-menu {
     padding-bottom: 0;
   }
-
+  .bannar .carousel-control-prev, .bannar .carousel-control-next {
+    position: absolute;
+    right: 100px;
+    left: auto;
+  }
+  .carousel-indicators-numbers button{
+      text-indent: 0;
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #fff;
+      background-color: #999;
+      transition: all 0.25s ease;
+}
+.carousel-indicators.carousel-indicators-numbers button{
+  font-size: 36px;
+	line-height: 46.8px;
+	font-family: 'Marcellus';
+  display: none;
+}
+.carousel-indicators.carousel-indicators-numbers button.active {
+  display: block;
+}
+.carousel-indicators.carousel-indicators-numbers button:last-child {
+	display: block;
+	color: #FBBF24;
+	font-size: 18px;
+	line-height: 27px;
+	margin-top: 20px;
+	font-family: "Comfortaa";
+}
+.carousel-caption.bannar-caption svg {
+	position: absolute;
+	right: 200px;
+	top: 108px;
+}
+.carousel-indicators {
+	position: absolute;
+	bottom: 0;
+	left: 103%;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	list-style: none;
+	flex-direction: column;
+	top: 420px;
+}
+.carousel-indicators [data-bs-target] {
+	box-sizing: content-box;
+	flex: 0;
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	margin-right: 0;
+	margin-left: 0;
+	text-indent: 0;
+	cursor: pointer;
+	background-color: transparent;
+	background-clip: padding-box;
+	border: 0;
+	border-top: 0;
+	border-bottom: 0;
+	opacity: 1;
+	transition: 0;
+}
+  .bannar .carousel-control-prev span, .bannar .carousel-control-next span{
+    background-color: transparent;
+    border: 0;
+  }
+  .bannar .carousel-control-prev{
+    position: absolute;
+    top: 960px;
+  }
+  .bannar .carousel-control-next {
+    left: auto;
+    top: 830px;
+  }
 
 /* 
   Home Page CSS 
@@ -264,7 +364,7 @@ span{
 .carousel-item.bannar-item {
 	background-size: cover;
 	background-position: center;
-  padding: 1230px 0 0;
+  padding: 1400px 0 0;
 }
 
 
@@ -274,7 +374,7 @@ span{
   left: 0;
   right: 0;
   z-index: 99;
-  top: 180px;
+  top: 220px;
 }
 .header.home .menu li a {
   color: #fff;
@@ -326,24 +426,37 @@ span{
 /* Promo */
 
 .promo {
-  background-color: #115E59;
-  position: relative;
+	background-color: #115E59;
+	position: relative;
+	padding-top: 120px;
 }
-.promo::after {
+/* .promo::after {
 	content: "";
   position: absolute;
   background: linear-gradient(90deg, #115E59 34.38%, rgba(255, 255, 255, 0) 100%);
   transform: matrix(1, 0, 0, -1, 0, 0);
   width: 100%;
-  height: 480px;
+  height: 200px;
   left: 0;
   top: 0;
   z-index: 999;
-}
-.promo h4 {
+} */
+.promo h4, .promo h4 span {
   font-size: 36px;
   color: #fff;
   line-height: 46.8px;
+  font-family: 'Marcellus', serif;
+  position: relative;
+}
+.promo h4 span::after {
+	position: absolute;
+	content: "";
+	background-image: url('../img/icons/divider.png');
+	right: 0;
+	bottom: -5px;
+	width: 100%;
+	height: 15px;
+	transform: rotate(3deg);
 }
 .promo p {
   color: #fff;
@@ -983,6 +1096,7 @@ span{
 }
 .room-search-price {
   text-align: right;
+  position: relative;
 }
 .room-search-price p {
   font-size: 23px;
@@ -1154,7 +1268,6 @@ span{
   padding-top: 24px;
   font-weight: 700;
 } 
-
 .payment-option {
   list-style: none;
   margin: 0;
@@ -1210,8 +1323,7 @@ span{
 .payment-form-half input:last-child {
   border-right: 0;
 }
-
-.payment-form-select select {
+.payment-form-select {
   border: 1px solid #14B8A6;
   width: 100%;
   border-radius: 8px;
@@ -1222,11 +1334,17 @@ span{
   font-family: 'Comfortaa';
   background-color: #F0FDFA;
   margin-top: 16px;
+  position: relative;
+}
+.payment-form-select select{
+  padding-left: 7px;
+  background-color: transparent;
+  border: 0;
+  width: 95%;
 }
 .payment-form-box {
   padding: 40px 0;
 }
-
 #payment-btn {
   display: block;
   background-color: transparent;
@@ -1247,6 +1365,20 @@ span{
 .payment-coupon-form {
 	margin-bottom: 60px;
 }
+.payment-form-box .step-radio-image-box img {
+	width: 20px;
+	height: 20px;
+	margin-bottom: 8px;
+	margin-top: 0;
+}
+#payment-coupon {
+  margin-bottom: 50px;
+  display: inline-block;
+  border-bottom: 1px dashed #0284C7;
+}
+
+
+
 .rooms-section-title h4 {
   color: #475569;
   font-size: 51px;
@@ -1297,6 +1429,7 @@ span{
 }
 .room-response .room-search-box {
 	flex-basis: 60%;
+  position: relative;
 }
 .room-response .room-search-top-info h5 {
   color: #0D9488;
@@ -2212,6 +2345,39 @@ span{
   z-index: 1;
   transform: translateY(-50%);
 }
+
+.review-input-box.full-box {
+  width: 100%;
+  text-align: left;
+}
+.review-input-box.full-box input {
+  text-align: left;
+  padding-left: 50px;
+  border-radius: 8px !important;
+}
+.review-input input[type="submit"].btn-bg {
+  background-color: #0D9488;
+  border-color: #0D9488;
+  display: inline-block;
+  width: auto;
+}
+.review-input input[type="submit"] {
+	width: auto;
+	padding: 16px 32px;
+}
+.review-input-box.full-box img {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+.review-box-home {
+  border: 2px solid #F0FDFA;
+  padding: 26px 32px 6px;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 0.10);
+}
 .property-add-modal .modal-body {
   padding: 64px 64px;
   border: 2px solid #0F766E;
@@ -2230,17 +2396,6 @@ span{
 }
 .property-add-modal .modal-content {
   border-radius: 26px;
-}
-.payment-form-box .step-radio-image-box img {
-	width: 20px;
-	height: 20px;
-	margin-bottom: 8px;
-	margin-top: 0;
-}
-#payment-coupon {
-  margin-bottom: 50px;
-  display: inline-block;
-  border-bottom: 1px dashed #0284C7;
 }
 
 
@@ -2507,4 +2662,131 @@ label {
 }
 .ui-state-default {
   color: #fff;
+}
+
+.rooms-section-title a:hover > svg *, .rooms-section-title a:hover{
+  fill: #0F766E;
+}
+.rooms-section-title a:hover {
+  color: #0F766E;
+}
+
+.room-search-bottom .room-search-timer {
+  position: absolute;
+  top: -45px;
+  margin-bottom: 0;
+  right: 0;
+}
+
+.room-search-bottom .room-search-timer span.seconds {
+  display: none;
+}
+.room-search-bottom .room-search-timer svg {
+  margin-top: -3px;
+  margin-left: 12px;
+}
+.room-search-bottom .room-search-timer span {
+  position: relative;
+}
+.room-search-bottom .room-search-timer span.hours::after {
+  content: ":";
+  position: absolute;
+  top: -2px;
+  right: 7px;
+}
+
+
+
+/* Room Modal */
+
+.modal-content.offer {
+	padding: 20px 30px;
+	border-radius: 32px;
+}
+.modal-content.offer .modal-header {
+  border-bottom: 0;
+}
+.modal-content.offer .modal-header h4 {
+  font-size: 36px !important;
+  line-height: 46.8px;
+  padding: 0 12px;
+}
+.modal-content.offer span {
+  color: #0284C7;
+  border-bottom: 2px solid #0284C7;
+}
+.single-room-modal {
+  border: 1px solid #94A3B8;
+  border-radius: 26px;
+}
+.room-modal-content {
+  padding: 16px;
+}
+.room-modal-content h4 {
+  color: #475569;
+  font-size: 23px;
+  line-height: 32.2px;
+  margin-bottom: 24px;
+}
+.single-room-modal ul li {
+  padding: 4px;
+  border-bottom: 0;
+  border: 1px solid #94A3B8;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 16px;
+}
+.room-modal-content ul {
+  padding: 0;
+  margin: 0;
+}
+.room-modal-content ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.room-modal-bottom {
+  border-top: 1px solid #94A3B8;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.room-modal-bottom del {
+  font-size: 13px;
+  line-height: 20.8px;
+}
+.room-modal-bottom p {
+  font-size: 23px;
+  color: #0F766E;
+  line-height: 32.2px;
+}
+.room-modal-bottom p span {
+  color: #475569 !important;
+  font-size: 18px;
+  line-height: 27px;
+  border-bottom: 0 !important;
+}
+.room-modal-bottom a {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.carousel-control-prev {
+  position: absolute;
+}
+.modal-content.offer .carousel-control-prev {
+  position: absolute;
+  left: -100px;
+}
+.modal-content.offer .carousel-control-prev span {
+  border-bottom-width: 1px;
+  border-color: #94A3B8;
+}
+.modal-content.offer .carousel-control-next span {
+  border-bottom-width: 1px;
+  border-color: #94A3B8;
+}
+.modal-content.offer .carousel-control-next {
+  position: absolute;
+  right: -100px;
 }

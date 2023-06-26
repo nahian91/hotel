@@ -1,4 +1,17 @@
-https://www.jqueryscript.net/demo/photo-gallery-lightbox-bootstrap/
+
+let toggler = document.getElementById('payment-btn');
+console.log(toggler);
+toggler.onclick = function(){
+  let paragraph = document.getElementById('theParagraph');
+  paragraph.classList.toggle("hidden");
+};
+
+$(".submit").click(function(){
+	return false;
+})
+
+function funcToggle() {
+	$(".cont").toggleClass('hidden');
+  };
 
 
-https://codepen.io/gohari7/pen/Bayadwp

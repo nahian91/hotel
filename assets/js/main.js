@@ -101,7 +101,18 @@ $(document).ready(function() {
 	});
   });
   
-  
+  var div_top = $('.filter, .room-search-map').offset().top;
+
+  $(window).scroll(function() {
+	  var window_top = $(window).scrollTop() - 0;
+	  if (window_top > div_top) {
+		  if (!$('.filter, .room-search-map').is('.sticky')) {
+			  $('.filter, .room-search-map').addClass('sticky');
+		  }
+	  } else {
+		  $('.filter, .room-search-map').removeClass('sticky');
+	  }
+  }); 
 //jQuery time
 var current_fs, next_fs, previous_fs; //fieldsets
 var left, opacity, scale; //fieldset properties which we will animate
@@ -180,33 +191,5 @@ $(".previous").click(function(){
 	});
 });
 
-let toggler = document.getElementById('payment-btn');
-console.log(toggler);
-toggler.onclick = function(){
-  let paragraph = document.getElementById('theParagraph');
-  paragraph.classList.toggle("hidden");
-};
-
-$(".submit").click(function(){
-	return false;
-})
-
-function funcToggle() {
-	$(".cont").toggleClass('hidden');
-  };
-
-
-  var div_top = $('.filter, .room-search-map').offset().top;
-
-$(window).scroll(function() {
-    var window_top = $(window).scrollTop() - 0;
-    if (window_top > div_top) {
-        if (!$('.filter, .room-search-map').is('.sticky')) {
-            $('.filter, .room-search-map').addClass('sticky');
-        }
-    } else {
-        $('.filter, .room-search-map').removeClass('sticky');
-    }
-});
 
 

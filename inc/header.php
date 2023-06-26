@@ -7,7 +7,7 @@
       <title>Red Locker | Hotel Booking</title>
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-      <!-- Style CSS -->
+      <!-- jQuery UI CSS -->
       <link rel="stylesheet" href="assets/css/jquery-ui.css">
       <!-- Style CSS -->
       <link rel="stylesheet" href="assets/css/style.css">
@@ -18,19 +18,32 @@
       <header class="header">
          <div class="container">
             <div class="row align-items-end">
-               <div class="col-xxl-2">
-                  <a href="" class="logo">
-                  <img src="assets/img/logo.png" alt="">
-                  </a>
-               </div>
-               <div class="col-xxl-6">
-                  <ul class="menu">
-                     <li><a href="">Home</a></li>
-                     <li><a href="">Deals</a></li>
-                     <li><a href="">Property List</a></li>
-                     <li><a href="">Add Property</a></li>
-                     <li><a href="">Support</a></li>
-                  </ul>
+               <div class="col-xxl-8">
+                  <nav class="navbar navbar-expand-lg align-items-end">
+                     <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto menu">
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Home</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Deals</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Porperty List</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Add Property</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Support</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
                </div>
                <div class="col-xxl-4">
                   <div class="header-right text-end">
