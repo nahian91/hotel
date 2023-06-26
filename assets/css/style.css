@@ -334,6 +334,13 @@ span{
     top: 830px;
   }
 
+  .header.home .header-right-single button {
+    color: #fff;
+  }
+  .header.home .header-right-alert button, .header.home .header-right-profile button {
+    border-color: #fff;
+    color: #fff;
+  }
 /* 
   Home Page CSS 
 */
@@ -373,7 +380,7 @@ span{
   position: absolute;
   left: 0;
   right: 0;
-  z-index: 99;
+  z-index: 9;
   top: 220px;
 }
 .header.home .menu li a {
@@ -856,6 +863,8 @@ span{
     border-radius: 8px;
     border: 1px solid #E2E8F0;
     box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.12);
+    z-index: 99;
+    position: relative;
   }
   .user-info {
     display: flex;
