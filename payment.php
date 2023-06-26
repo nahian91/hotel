@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-xl-6 col-md-12">
                 <div class="booking-information">
                     <h4 class="page-subtitle">Your Booking Information</h4>
                     <ul>
@@ -103,7 +103,7 @@
                     <a href="" class="btn-bg">Confirm Booking & Pay</a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-xl-6 col-md-12 mt-md-3 mt-xl-0">
                 <div class="booking-summary">
                     <div class="booking-summary-top">
                         <img src="assets/img/icons/hotel-booking.svg" alt="">

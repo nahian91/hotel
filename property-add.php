@@ -3,7 +3,7 @@
    <div class="container">
       <!-- MultiStep Form -->
       <div class="row">
-         <div class="col-md-8 mx-auto">
+         <div class="col-xl-8 col-md-12 mx-auto">
             <form class="property-form">
                <!-- progressbar -->
                <ul id="progressbar">
@@ -191,7 +191,7 @@
                      </div>
                   </div>
 
-                  <input type="submit" name="submit" class="submit action-button" value="List Your Property" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                  <input type="button" name="submit" class="submit action-button" value="List Your Property" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
                   <input type="button" name="previous" class="previous action-button-previous" value="Go Back"/>
                </fieldset>
             </form>
@@ -215,7 +215,5 @@
     </div>
   </div>
 </div>
-
-
 
 <?php include 'inc/footer.php'; ?>

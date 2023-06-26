@@ -2,11 +2,11 @@
 <section class="rooms-section-title">
    <div class="container">
       <div class="row align-items-end">
-         <div class="col-md-6">
+         <div class="col-md-12 col-xl-6">
             <h4>Seacrest Oceanfront Resort</h4>
             <p>Hotel-Motel Zone, Cox's Bazar</p>
          </div>
-         <div class="col-md-6 d-flex justify-content-end">
+         <div class="col-md-12 col-xl-6 d-flex justify-content-end">
             <a href="">
                <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M11.5 16.5C10.8053 16.5 10.215 16.257 9.729 15.771C9.243 15.285 9 14.6947 9 14C9 13.8887 9.007 13.788 9.021 13.698C9.035 13.6073 9.05567 13.5067 9.083 13.396L4.125 10.375C3.91633 10.597 3.66967 10.7567 3.385 10.854C3.10033 10.9513 2.80533 11 2.5 11C1.80533 11 1.215 10.757 0.729 10.271C0.243 9.785 0 9.19467 0 8.5C0 7.80533 0.243 7.215 0.729 6.729C1.215 6.243 1.80533 6 2.5 6C2.80533 6 3.10033 6.052 3.385 6.156C3.66967 6.26 3.91633 6.41633 4.125 6.625L9.083 3.604C9.05567 3.49333 9.035 3.39267 9.021 3.302C9.007 3.212 9 3.11133 9 3C9 2.30533 9.243 1.715 9.729 1.229C10.215 0.743 10.8053 0.5 11.5 0.5C12.1947 0.5 12.785 0.743 13.271 1.229C13.757 1.715 14 2.30533 14 3C14 3.69467 13.757 4.285 13.271 4.771C12.785 5.257 12.1947 5.5 11.5 5.5C11.1947 5.5 10.8997 5.45133 10.615 5.354C10.3303 5.25667 10.0837 5.097 9.875 4.875L4.917 7.896C4.94433 8.00667 4.965 8.10733 4.979 8.198C4.993 8.288 5 8.38867 5 8.5C5 8.61133 4.993 8.712 4.979 8.802C4.965 8.89267 4.94433 8.99333 4.917 9.104L9.875 12.125C10.0837 11.889 10.3303 11.7257 10.615 11.635C10.8997 11.545 11.1947 11.5 11.5 11.5C12.1947 11.5 12.785 11.743 13.271 12.229C13.757 12.715 14 13.3053 14 14C14 14.6947 13.757 15.285 13.271 15.771C12.785 16.257 12.1947 16.5 11.5 16.5ZM11.5 4C11.778 4 12.014 3.90267 12.208 3.708C12.4027 3.514 12.5 3.278 12.5 3C12.5 2.722 12.4027 2.486 12.208 2.292C12.014 2.09733 11.778 2 11.5 2C11.222 2 10.986 2.09733 10.792 2.292C10.5973 2.486 10.5 2.722 10.5 3C10.5 3.278 10.5973 3.514 10.792 3.708C10.986 3.90267 11.222 4 11.5 4ZM2.5 9.5C2.778 9.5 3.014 9.40267 3.208 9.208C3.40267 9.014 3.5 8.778 3.5 8.5C3.5 8.222 3.40267 7.986 3.208 7.792C3.014 7.59733 2.778 7.5 2.5 7.5C2.222 7.5 1.986 7.59733 1.792 7.792C1.59733 7.986 1.5 8.222 1.5 8.5C1.5 8.778 1.59733 9.014 1.792 9.208C1.986 9.40267 2.222 9.5 2.5 9.5ZM11.5 15C11.778 15 12.014 14.9027 12.208 14.708C12.4027 14.514 12.5 14.278 12.5 14C12.5 13.722 12.4027 13.486 12.208 13.292C12.014 13.0973 11.778 13 11.5 13C11.222 13 10.986 13.0973 10.792 13.292C10.5973 13.486 10.5 13.722 10.5 14C10.5 14.278 10.5973 14.514 10.792 14.708C10.986 14.9027 11.222 15 11.5 15Z" fill="#64748B"/>
@@ -31,24 +31,24 @@
 <section class="rooms-gallery">
    <div class="container">
       <div class="row rooms-gallery-border">
-         <div class="col-xxl-6">
+         <div class="col-md-6">
             <div class="single-room-gallery position-relative">
                <img src="assets/img/rooms/room-gallery-1.png" class="w-100" alt="">
                <a href="" class="btn btn-border" data-bs-toggle="modal" data-bs-target="#galleryModal"><img src="assets/img/icons/icon-gallery.png" alt=""> Show All Photos</a>
             </div>
          </div>
-         <div class="col-xxl-6">
+         <div class="col-md-6">
             <div class="row align-content-center flex-wrap">
-               <div class="col-xxl-6">
+               <div class="col-md-6">
                   <img src="assets/img/rooms/room-gallery-2.png" class="w-100 position-relative" alt="">
                </div>
-               <div class="col-xxl-6">
+               <div class="col-md-6">
                   <img src="assets/img/rooms/room-gallery-3.png" class="w-100" alt="">
                </div>
-               <div class="col-xxl-6 mt-4">
+               <div class="col-md-6 mt-4">
                   <img src="assets/img/rooms/room-gallery-4.png" class="w-100" alt="">
                </div>
-               <div class="col-xxl-6 mt-4">
+               <div class="col-md-6 mt-4">
                   <img src="assets/img/rooms/room-gallery-5.png" class="w-100" alt="">
                </div>
             </div>
@@ -91,7 +91,7 @@
 <section class="room-amentites">
    <div class="container">
       <div class="row">
-         <div class="col-xxl-7">
+         <div class="col-md-12 col-xl-7">
             <div class="review-summary d-flex justify-content-between align-items-end">
                <div class="review-summary-content d-flex">
                   <h4>4.8</h4>
@@ -101,13 +101,13 @@
             </div>
             <h4 class="room-amentites-title">Popular Amenities</h4>
             <div class="row">
-               <div class="col-xxl-6">
+               <div class="col-md-6">
                   <span><img src="assets/img/icons/icon-welcome-drink.png" alt=""> Welcome Drinks</span>
                   <span><img src="assets/img/icons/icon-air-condiitoner.png" alt=""> Air Conditioner</span>
                   <span><img src="assets/img/icons/icon-tea.png" alt=""> Room Tea/Coffee</span>
                   <span><img src="assets/img/icons/icon-airport.png" alt=""> Airport Pick & Drop</span>
                </div>
-               <div class="col-xxl-6">
+               <div class="col-md-6">
                   <span><img src="assets/img/icons/icon-swimming-pool.png" alt=""> Swimming Pool</span>
                   <span><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</span>
                   <span><img src="assets/img/icons/icon-wifi.png" alt=""> Free Wi-Fi</span>
@@ -115,7 +115,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xxl-5">
+         <div class="col-md-12 col-xl-5">
             <div class="room-boking">
                <a href="#room-response" class="btn-bg d-block text-center">Check Hotel Response <img src="assets/img/icons/icon-arrow-down.svg" alt=""></a>
                <div class="room-booking-form">
@@ -147,14 +147,35 @@
                         </div>
                      </div>
                      <div class="review-input">
-                        <div class="review-input-box">  
-                           <input type="number" placeholder="2 Adult">
+                        <div class="review-input-box">
+                           <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12.5 8.45C12.9833 7.91667 13.3543 7.30833 13.613 6.625C13.871 5.94167 14 5.23333 14 4.5C14 3.76667 13.871 3.05833 13.613 2.375C13.3543 1.69167 12.9833 1.08333 12.5 0.55C13.5 0.683334 14.3333 1.125 15 1.875C15.6667 2.625 16 3.5 16 4.5C16 5.5 15.6667 6.375 15 7.125C14.3333 7.875 13.5 8.31667 12.5 8.45ZM17.525 16.5C17.675 16.3833 17.7917 16.2373 17.875 16.062C17.9583 15.8873 18 15.6917 18 15.475V13.5C18 12.9 17.8667 12.3293 17.6 11.788C17.3333 11.246 16.9833 10.7667 16.55 10.35C17.4 10.65 18.1877 11.0373 18.913 11.512C19.6377 11.9873 20 12.65 20 13.5V15.5C20 15.7833 19.904 16.0207 19.712 16.212C19.5207 16.404 19.2833 16.5 19 16.5H17.525ZM21 9.5C20.7167 9.5 20.4793 9.404 20.288 9.212C20.096 9.02067 20 8.78333 20 8.5V7.5H19C18.7167 7.5 18.4793 7.404 18.288 7.212C18.096 7.02067 18 6.78333 18 6.5C18 6.21667 18.096 5.979 18.288 5.787C18.4793 5.59567 18.7167 5.5 19 5.5H20V4.5C20 4.21667 20.096 3.979 20.288 3.787C20.4793 3.59567 20.7167 3.5 21 3.5C21.2833 3.5 21.5207 3.59567 21.712 3.787C21.904 3.979 22 4.21667 22 4.5V5.5H23C23.2833 5.5 23.5207 5.59567 23.712 5.787C23.904 5.979 24 6.21667 24 6.5C24 6.78333 23.904 7.02067 23.712 7.212C23.5207 7.404 23.2833 7.5 23 7.5H22V8.5C22 8.78333 21.904 9.02067 21.712 9.212C21.5207 9.404 21.2833 9.5 21 9.5ZM8 8.5C6.9 8.5 5.95833 8.10833 5.175 7.325C4.39167 6.54167 4 5.6 4 4.5C4 3.4 4.39167 2.45833 5.175 1.675C5.95833 0.891667 6.9 0.5 8 0.5C9.1 0.5 10.0417 0.891667 10.825 1.675C11.6083 2.45833 12 3.4 12 4.5C12 5.6 11.6083 6.54167 10.825 7.325C10.0417 8.10833 9.1 8.5 8 8.5ZM1 16.5C0.716667 16.5 0.479333 16.404 0.288 16.212C0.096 16.0207 0 15.7833 0 15.5V13.7C0 13.1333 0.146 12.6123 0.438 12.137C0.729333 11.6623 1.11667 11.3 1.6 11.05C2.63333 10.5333 3.68333 10.1457 4.75 9.887C5.81667 9.629 6.9 9.5 8 9.5C9.1 9.5 10.1833 9.629 11.25 9.887C12.3167 10.1457 13.3667 10.5333 14.4 11.05C14.8833 11.3 15.2707 11.6623 15.562 12.137C15.854 12.6123 16 13.1333 16 13.7V15.5C16 15.7833 15.9043 16.0207 15.713 16.212C15.521 16.404 15.2833 16.5 15 16.5H1ZM8 6.5C8.55 6.5 9.021 6.304 9.413 5.912C9.80433 5.52067 10 5.05 10 4.5C10 3.95 9.80433 3.47933 9.413 3.088C9.021 2.696 8.55 2.5 8 2.5C7.45 2.5 6.97933 2.696 6.588 3.088C6.196 3.47933 6 3.95 6 4.5C6 5.05 6.196 5.52067 6.588 5.912C6.97933 6.304 7.45 6.5 8 6.5ZM2 14.5H14V13.7C14 13.5167 13.9543 13.35 13.863 13.2C13.771 13.05 13.65 12.9333 13.5 12.85C12.6 12.4 11.6917 12.0623 10.775 11.837C9.85833 11.6123 8.93333 11.5 8 11.5C7.06667 11.5 6.14167 11.6123 5.225 11.837C4.30833 12.0623 3.4 12.4 2.5 12.85C2.35 12.9333 2.22933 13.05 2.138 13.2C2.046 13.35 2 13.5167 2 13.7V14.5Z" fill="#14B8A6"/>
+                           </svg>
+                           <input type="number" name="number" min="0" max="100" placeholder="2 Adult">
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
+                           <img src="assets/img/home/arrow_drop_up.png" alt="">
+                           </button>
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
+                           <img src="assets/img/home/arrow_drop_down.png" alt="">
+                           </button>
                         </div>
                         <div class="review-input-box">
-                           <input type="number" placeholder="0 Child">
+                           <input type="number" name="number" min="0" max="100" placeholder="0 Child">
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
+                           <img src="assets/img/home/arrow_drop_up.png" alt="">
+                           </button>
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
+                           <img src="assets/img/home/arrow_drop_down.png" alt="">
+                           </button>
                         </div>
                         <div class="review-input-box">
-                           <input type="number" placeholder="1 Room">
+                           <input type="number" name="number" min="0" max="100" placeholder="1 Room">
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
+                           <img src="assets/img/home/arrow_drop_up.png" alt="">
+                           </button>
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
+                           <img src="assets/img/home/arrow_drop_down.png" alt="">
+                           </button>
                         </div>
                      </div>
                      <input type="submit" value="Revise Query" class="btn-border d-block w-100">
@@ -315,7 +336,7 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-xxl-4">
+         <div class="col-md-6 col-xxl-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-icon">
@@ -370,7 +391,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xxl-4">
+         <div class="col-md-6 col-xxl-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-badge">Most Popular</span>
@@ -426,7 +447,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xxl-4">
+         <div class="col-md-6 col-xxl-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-icon">
@@ -493,7 +514,7 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-xxl-4">
+         <div class="col-md-6 col-xxl-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-icon">
@@ -548,7 +569,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xxl-4">
+         <div class="col-md-6 col-xxl-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-badge">Most Popular</span>
@@ -604,7 +625,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xxl-4">
+         <div class="col-md-6 col-xxl-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-icon">
@@ -665,10 +686,10 @@
 <section class="about-property">
    <div class="container">
       <div class="row about-property-box">
-         <div class="col-xxl-8">
+         <div class="col-md-8">
             <h4>About Property</h4>
             <div class="row">
-               <div class="col-xxl-4">
+               <div class="col-md-6 col-xxl-4">
                   <img src="assets/img/logo-hotel.png" alt="">
                   <ul>
                      <li><span>Check-in time:</span> 1:00 PM</li>
@@ -679,7 +700,7 @@
                      <li><img src="assets/img/icons/icon-map.png" alt=""> 2464 Royal Ln. Mesa, New Jersey 45463</li>
                   </ul>
                </div>
-               <div class="col-xxl-8">
+               <div class="col-md-8">
                   <div class="property-content">
                      <h5><img src="assets/img/icon-star.png" alt=""> 3 Star Hotel</h5>
                      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
@@ -688,7 +709,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xxl-4 g-0">
+         <div class="col-md-6 col-xxl-4 g-0">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57903.13565556951!2d91.7892218563076!3d24.899824246801856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054d3d270329f%3A0xf58ef93431f67382!2z4Ka44Ka_4Kay4KeH4Kaf!5e0!3m2!1sbn!2sbd!4v1679854607461!5m2!1sbn!2sbd"></iframe>
          </div>
       </div>
@@ -697,7 +718,7 @@
 <section class="reviews">
    <div class="container">
       <div class="row">
-         <div class="col-xxl-4">
+         <div class="col-md-6 col-xxl-4">
             <div class="review-summary d-flex align-items-center">
                <h4>4.8</h4>
                <p>Very Good <span>1234 reviews</span></p>
@@ -735,7 +756,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xxl-8">
+         <div class="col-md-8">
             <h4 class="section-title">Reviews By Guests</h4>
             <div class="single-review">
                <div class="review-top d-flex justify-content-between align-items-end">
@@ -827,7 +848,7 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-xxl-4">
+         <div class="col-md-6 col-xxl-4">
             <div class="single-amenities">
                <h5><img src="assets/img/icons/icon-wifi.png" alt=""> Internet</h5>
                <span>Available in all rooms: Free WiFi</span>
@@ -853,7 +874,7 @@
                <span>Depending on room, it might be free or paid service.</span>
             </div>
          </div>
-         <div class="col-xxl-4">
+         <div class="col-md-6 col-xxl-4">
             <div class="single-amenities">
                <h5><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</h5>
                <span>Free buffet breakfast available daily 7:00 AM–10:30 AM</span>
@@ -882,7 +903,7 @@
                <span>Flat-screen TV</span>
             </div>
          </div>
-         <div class="col-xxl-4">
+         <div class="col-md-6 col-xxl-4">
             <div class="single-amenities">
                <h5><img src="assets/img/icons/icon-restaurant.png" alt=""> Restaurant</h5>
                <span>2 bars/lounges</span>

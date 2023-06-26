@@ -1,5 +1,3 @@
-
-
 <section class="single-room-column-area">
     <div class="container">
         <div class="row">

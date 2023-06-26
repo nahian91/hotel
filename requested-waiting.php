@@ -523,7 +523,7 @@
 <section class="request-waiting">
    <div class="container">
       <div class="row">
-         <div class="col-md-8 text-center mx-auto">
+         <div class="col-xl-8 col-md-12 text-center mx-auto">
             <div class="request-waiting-box">
                <img src="assets/img/icons/icon-waiting.svg" alt="">
                <h4>System is wafting for responses from hotels & resorts.</h4>

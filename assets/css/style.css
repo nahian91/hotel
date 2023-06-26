@@ -437,17 +437,17 @@ span{
 	position: relative;
 	padding-top: 120px;
 }
-/* .promo::after {
+.promo::after {
 	content: "";
-  position: absolute;
-  background: linear-gradient(90deg, #115E59 34.38%, rgba(255, 255, 255, 0) 100%);
-  transform: matrix(1, 0, 0, -1, 0, 0);
-  width: 100%;
-  height: 200px;
-  left: 0;
-  top: 0;
-  z-index: 999;
-} */
+	position: absolute;
+	background: linear-gradient(180deg, #115E59 34.38%, rgba(255, 255, 255, 0) 100%);
+	width: 100%;
+	height: 60px;
+	left: 0;
+	top: -40px;
+	z-index: 1;
+	transform: rotate(180deg);
+}
 .promo h4, .promo h4 span {
   font-size: 36px;
   color: #fff;
@@ -757,6 +757,17 @@ span{
   margin-bottom: 20px;
 }
 
+.review-input-box button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: transparent;
+  border: 0;
+}
+.review-input-box button:last-child {
+  display: ;
+  top: 20px;
+}
 .alert-countdown .room-search-timer span:first-child {
   margin-right: -10px;
   margin-top: -2px;
@@ -1503,6 +1514,11 @@ span{
   margin-left: 4px;
   background-color: #fff;
 }
+
+.room-response .room-search-bottom .room-search-timer {
+  top: 30px;
+  right: 5px;
+}
 .hidden {
   display: none;
 }
@@ -2143,7 +2159,7 @@ span{
 	font-size: 18px;
 	line-height: 18px;
 	font-family: 'Comfortaa';
-	margin-top: 80px;
+	margin-top: 50px;
 }
 .property-form .action-button-previous {
 	font-weight: 700;
@@ -2323,7 +2339,7 @@ span{
 	background-color: #F0FDFA;
 }
 .property-step {
-	min-height: 1000px;
+	min-height: 850px;
 }
 
 .single-step-radio-image {
@@ -2372,7 +2388,7 @@ span{
 }
 .review-input input[type="submit"] {
 	width: auto;
-	padding: 16px 32px;
+	padding: 16px 40px;
 }
 .review-input-box.full-box img {
   position: absolute;
@@ -2383,7 +2399,7 @@ span{
 }
 .review-box-home {
   border: 2px solid #F0FDFA;
-  padding: 26px 32px 6px;
+  padding: 26px 20px 6px;
   border-radius: 24px;
   background-color: rgba(255, 255, 255, 0.10);
 }
@@ -2798,4 +2814,16 @@ label {
 .modal-content.offer .carousel-control-next {
   position: absolute;
   right: -100px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }

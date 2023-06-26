@@ -20,15 +20,33 @@
                      </div>
                   </div>
                   <div class="filter-box">
-                     <div class="review-input">
-                        <div class="review-input-box">  
-                           <input type="number" placeholder="2 Adult">
+                  <div class="review-input">
+                        <div class="review-input-box">
+                           <input type="number" name="number" min="0" max="100" placeholder="2 Adult">
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
+                           <img src="assets/img/home/arrow_drop_up.png" alt="">
+                           </button>
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
+                           <img src="assets/img/home/arrow_drop_down.png" alt="">
+                           </button>
                         </div>
                         <div class="review-input-box">
-                           <input type="number" placeholder="0 Child">
+                           <input type="number" name="number" min="0" max="100" placeholder="0 Child">
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
+                           <img src="assets/img/home/arrow_drop_up.png" alt="">
+                           </button>
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
+                           <img src="assets/img/home/arrow_drop_down.png" alt="">
+                           </button>
                         </div>
                         <div class="review-input-box">
-                           <input type="number" placeholder="1 Room">
+                           <input type="number" name="number" min="0" max="100" placeholder="1 Room">
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
+                           <img src="assets/img/home/arrow_drop_up.png" alt="">
+                           </button>
+                           <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
+                           <img src="assets/img/home/arrow_drop_down.png" alt="">
+                           </button>
                         </div>
                      </div>
                   </div>
