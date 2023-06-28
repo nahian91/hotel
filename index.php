@@ -18,8 +18,8 @@
       <header class="header home">
          <div class="container">
             <div class="row align-items-end">
-               <div class="col-xxl-8">
-               <nav class="navbar navbar-expand-lg align-items-end">
+               <div class="col-xl-8">
+               <nav class="navbar navbar-expand-xl align-items-end">
                      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@
                      </div>
                   </nav>
                </div>
-               <div class="col-xxl-4">
+               <div class="col-xl-4">
                   <div class="header-right text-end">
                      <div class="btn-group dropdown-center header-right-single">
                         <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -112,11 +112,11 @@
       <section class="home-hero">
          <div class="container">
             <div class="row">
-               <div class="col-md-6">
+               <div class="col-md-12 col-xl-6">
                   <h1>Plan Your Dream Trip In <span>Budget</span></h1>
                   <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                </div>
-               <div class="col-md-5 ms-auto">
+               <div class="col-md-12 col-xl-5 ms-auto">
                   <form action="" class="review-box-home">
                      <div class="review-input">
                         <div class="review-input-box full-box">  
@@ -419,15 +419,15 @@
       <section class="rooms">
          <div class="container">
             <div class="row align-items-center rooms-title">
-               <div class="col-md-5">
+               <div class="col-lg-5 col-md-12">
                   <h4>Here Is Our <span>Best Rated</span><br> Picks For Your Next <br> Trip Plan</h4>
                </div>
-               <div class="col-md-7">
+               <div class="col-lg-7 col-md-12">
                   <p>Every month our system sort the hotels and as per best rating and show the list for you. So, that you can plan the best trip</p>
                </div>
             </div>
             <div class="row">
-               <div class="col-md-4">
+               <div class="col-md-6 col-lg-4">
                   <div class="single-room">
                      <div class="room-image" style="background-image:url('assets/img/rooms/room1.png')"></div>
                      <div class="room-content">
@@ -448,7 +448,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-6 col-lg-4">
                   <div class="single-room">
                      <div class="room-image" style="background-image:url('assets/img/rooms/room2.png')"></div>
                      <div class="room-content">
@@ -469,7 +469,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-6 col-lg-4">
                   <div class="single-room">
                      <div class="room-image" style="background-image:url('assets/img/rooms/room3.png')"></div>
                      <div class="room-content">
@@ -490,7 +490,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-6 col-lg-4">
                   <div class="single-room">
                      <div class="room-image" style="background-image:url('assets/img/rooms/room4.png')"></div>
                      <div class="room-content">
@@ -511,7 +511,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-6 col-lg-4">
                   <div class="single-room">
                      <div class="room-image" style="background-image:url('assets/img/rooms/room5.png')"></div>
                      <div class="room-content">
@@ -532,7 +532,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-6 col-lg-4">
                   <div class="single-room">
                      <div class="room-image" style="background-image:url('assets/img/rooms/room6.png')"></div>
                      <div class="room-content">
@@ -553,7 +553,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-6 col-lg-4">
                   <div class="single-room">
                      <div class="room-image" style="background-image:url('assets/img/rooms/room7.png')"></div>
                      <div class="room-content">
@@ -574,7 +574,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-6 col-lg-4">
                   <div class="single-room">
                      <div class="room-image" style="background-image:url('assets/img/rooms/room8.png')"></div>
                      <div class="room-content">
@@ -595,7 +595,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-6 col-lg-4">
                   <div class="single-room">
                      <div class="room-image" style="background-image:url('assets/img/rooms/room9.png')"></div>
                      <div class="room-content">

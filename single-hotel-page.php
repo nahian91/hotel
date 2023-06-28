@@ -2,11 +2,11 @@
 <section class="rooms-section-title">
    <div class="container">
       <div class="row align-items-end">
-         <div class="col-md-12 col-xl-6">
+         <div class="col-md-12 col-md-9">
             <h4>Seacrest Oceanfront Resort</h4>
             <p>Hotel-Motel Zone, Cox's Bazar</p>
          </div>
-         <div class="col-md-12 col-xl-6 d-flex justify-content-end">
+         <div class="col-md-12 col-md-3 d-flex justify-content-end">
             <a href="">
                <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M11.5 16.5C10.8053 16.5 10.215 16.257 9.729 15.771C9.243 15.285 9 14.6947 9 14C9 13.8887 9.007 13.788 9.021 13.698C9.035 13.6073 9.05567 13.5067 9.083 13.396L4.125 10.375C3.91633 10.597 3.66967 10.7567 3.385 10.854C3.10033 10.9513 2.80533 11 2.5 11C1.80533 11 1.215 10.757 0.729 10.271C0.243 9.785 0 9.19467 0 8.5C0 7.80533 0.243 7.215 0.729 6.729C1.215 6.243 1.80533 6 2.5 6C2.80533 6 3.10033 6.052 3.385 6.156C3.66967 6.26 3.91633 6.41633 4.125 6.625L9.083 3.604C9.05567 3.49333 9.035 3.39267 9.021 3.302C9.007 3.212 9 3.11133 9 3C9 2.30533 9.243 1.715 9.729 1.229C10.215 0.743 10.8053 0.5 11.5 0.5C12.1947 0.5 12.785 0.743 13.271 1.229C13.757 1.715 14 2.30533 14 3C14 3.69467 13.757 4.285 13.271 4.771C12.785 5.257 12.1947 5.5 11.5 5.5C11.1947 5.5 10.8997 5.45133 10.615 5.354C10.3303 5.25667 10.0837 5.097 9.875 4.875L4.917 7.896C4.94433 8.00667 4.965 8.10733 4.979 8.198C4.993 8.288 5 8.38867 5 8.5C5 8.61133 4.993 8.712 4.979 8.802C4.965 8.89267 4.94433 8.99333 4.917 9.104L9.875 12.125C10.0837 11.889 10.3303 11.7257 10.615 11.635C10.8997 11.545 11.1947 11.5 11.5 11.5C12.1947 11.5 12.785 11.743 13.271 12.229C13.757 12.715 14 13.3053 14 14C14 14.6947 13.757 15.285 13.271 15.771C12.785 16.257 12.1947 16.5 11.5 16.5ZM11.5 4C11.778 4 12.014 3.90267 12.208 3.708C12.4027 3.514 12.5 3.278 12.5 3C12.5 2.722 12.4027 2.486 12.208 2.292C12.014 2.09733 11.778 2 11.5 2C11.222 2 10.986 2.09733 10.792 2.292C10.5973 2.486 10.5 2.722 10.5 3C10.5 3.278 10.5973 3.514 10.792 3.708C10.986 3.90267 11.222 4 11.5 4ZM2.5 9.5C2.778 9.5 3.014 9.40267 3.208 9.208C3.40267 9.014 3.5 8.778 3.5 8.5C3.5 8.222 3.40267 7.986 3.208 7.792C3.014 7.59733 2.778 7.5 2.5 7.5C2.222 7.5 1.986 7.59733 1.792 7.792C1.59733 7.986 1.5 8.222 1.5 8.5C1.5 8.778 1.59733 9.014 1.792 9.208C1.986 9.40267 2.222 9.5 2.5 9.5ZM11.5 15C11.778 15 12.014 14.9027 12.208 14.708C12.4027 14.514 12.5 14.278 12.5 14C12.5 13.722 12.4027 13.486 12.208 13.292C12.014 13.0973 11.778 13 11.5 13C11.222 13 10.986 13.0973 10.792 13.292C10.5973 13.486 10.5 13.722 10.5 14C10.5 14.278 10.5973 14.514 10.792 14.708C10.986 14.9027 11.222 15 11.5 15Z" fill="#64748B"/>
@@ -91,7 +91,7 @@
 <section class="room-amentites">
    <div class="container">
       <div class="row">
-         <div class="col-md-12 col-xl-7">
+         <div class="col-md-12 col-lg-6">
             <div class="review-summary d-flex justify-content-between align-items-end">
                <div class="review-summary-content d-flex">
                   <h4>4.8</h4>
@@ -115,7 +115,7 @@
                </div>
             </div>
          </div>
-         <div class="col-md-12 col-xl-5">
+         <div class="col-md-12 col-lg-6">
             <div class="room-boking">
                <a href="#room-response" class="btn-bg d-block text-center">Check Hotel Response <img src="assets/img/icons/icon-arrow-down.svg" alt=""></a>
                <div class="room-booking-form">
@@ -336,7 +336,7 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-md-6 col-xxl-4">
+         <div class="col-md-6 col-lg-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-icon">
@@ -391,7 +391,7 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6 col-xxl-4">
+         <div class="col-md-6 col-lg-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-badge">Most Popular</span>
@@ -447,7 +447,7 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6 col-xxl-4">
+         <div class="col-md-6 col-lg-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-icon">
@@ -514,7 +514,7 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-md-6 col-xxl-4">
+         <div class="col-md-6 col-lg-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-icon">
@@ -569,7 +569,7 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6 col-xxl-4">
+         <div class="col-md-6 col-lg-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-badge">Most Popular</span>
@@ -625,7 +625,7 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6 col-xxl-4">
+         <div class="col-md-6 col-lg-4">
             <div class="single-room-column">
                <div class="room-column-slider">
                   <span class="room-column-icon">
@@ -689,7 +689,7 @@
          <div class="col-md-8">
             <h4>About Property</h4>
             <div class="row">
-               <div class="col-md-6 col-xxl-4">
+               <div class="col-md-6 col-lg-4">
                   <img src="assets/img/logo-hotel.png" alt="">
                   <ul>
                      <li><span>Check-in time:</span> 1:00 PM</li>
@@ -709,7 +709,7 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6 col-xxl-4 g-0">
+         <div class="col-md-6 col-lg-4 g-0">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57903.13565556951!2d91.7892218563076!3d24.899824246801856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054d3d270329f%3A0xf58ef93431f67382!2z4Ka44Ka_4Kay4KeH4Kaf!5e0!3m2!1sbn!2sbd!4v1679854607461!5m2!1sbn!2sbd"></iframe>
          </div>
       </div>
@@ -718,7 +718,7 @@
 <section class="reviews">
    <div class="container">
       <div class="row">
-         <div class="col-md-6 col-xxl-4">
+         <div class="col-md-12 col-lg-4">
             <div class="review-summary d-flex align-items-center">
                <h4>4.8</h4>
                <p>Very Good <span>1234 reviews</span></p>
@@ -756,7 +756,7 @@
                </div>
             </div>
          </div>
-         <div class="col-md-8">
+         <div class="col-md-12 col-lg-8">
             <h4 class="section-title">Reviews By Guests</h4>
             <div class="single-review">
                <div class="review-top d-flex justify-content-between align-items-end">
@@ -848,7 +848,7 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-md-6 col-xxl-4">
+         <div class="col-md-6 col-lg-4">
             <div class="single-amenities">
                <h5><img src="assets/img/icons/icon-wifi.png" alt=""> Internet</h5>
                <span>Available in all rooms: Free WiFi</span>
@@ -874,7 +874,7 @@
                <span>Depending on room, it might be free or paid service.</span>
             </div>
          </div>
-         <div class="col-md-6 col-xxl-4">
+         <div class="col-md-6 col-lg-4">
             <div class="single-amenities">
                <h5><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</h5>
                <span>Free buffet breakfast available daily 7:00 AM–10:30 AM</span>
@@ -903,7 +903,7 @@
                <span>Flat-screen TV</span>
             </div>
          </div>
-         <div class="col-md-6 col-xxl-4">
+         <div class="col-md-6 col-lg-4">
             <div class="single-amenities">
                <h5><img src="assets/img/icons/icon-restaurant.png" alt=""> Restaurant</h5>
                <span>2 bars/lounges</span>

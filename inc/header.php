@@ -18,8 +18,8 @@
       <header class="header">
          <div class="container">
             <div class="row align-items-end">
-               <div class="col-xxl-8">
-                  <nav class="navbar navbar-expand-lg align-items-end">
+               <div class="col-xl-8">
+                  <nav class="navbar navbar-expand-xl align-items-end">
                      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@
                      </div>
                   </nav>
                </div>
-               <div class="col-xxl-4">
+               <div class="col-xl-4">
                   <div class="header-right text-end">
                      <div class="btn-group dropdown-center header-right-single">
                         <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">

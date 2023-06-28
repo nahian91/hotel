@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xxl-3">
+            <div class="col-lg-3 col-md-6">
                 <!-- Single Footer --> 
                 <div class="single-footer">
                     <h4>Company</h4>
@@ -20,7 +20,7 @@
                     <a href="">Advertising</a>
                 </div>
             </div>
-            <div class="col-xxl-3">
+            <div class="col-lg-3 col-md-6">
                 <!-- Single Footer --> 
                 <div class="single-footer">
                     <h4>Policies</h4>
@@ -32,7 +32,7 @@
                     <a href="">Do not sell my personal info</a>
                 </div>
             </div>
-            <div class="col-xxl-3">
+            <div class="col-lg-3 col-md-6 mt-md-3 mt-lg-0">
                 <!-- Single Footer --> 
                 <div class="single-footer">
                     <h4>Help</h4>
@@ -44,7 +44,7 @@
                     <a href="">International travel documents</a>
                 </div>
             </div>
-            <div class="col-xxl-3">
+            <div class="col-lg-3 col-md-6">
                 <!-- Single Footer --> 
                 <div class="single-footer">
                     <h4>Sales & Marketing</h4>
@@ -52,7 +52,7 @@
                     <span><img src="assets/img/footer-phone.png" alt=""> 077 2247 4930</span>
                 </div>
             </div>
-            <div class="col-xxl-12">
+            <div class="col-12">
                 <!-- Footer Copy --> 
                 <div class="footer-copy">
                     <p>Rate Locker Ltd. is not responsible for content on external Web sites.</p>
